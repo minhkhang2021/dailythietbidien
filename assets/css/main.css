@@ -1687,7 +1687,7 @@ select {
 }
 @media (max-width: 1199.98px) {
   .introduce-company {
-    padding: 0;
+    padding: 20px 0;
   }
 }
 .introduce-company__info {
@@ -1810,7 +1810,7 @@ select {
 }
 @media (max-width: 767.98px) {
   .product-main__link {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
 }
 
