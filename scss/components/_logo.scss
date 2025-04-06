@@ -1,0 +1,15 @@
+@use "../abstracts";
+.logo {
+    display: flex;
+    align-items: center;
+    max-width: 150px;
+    max-height: 70px;
+
+    &__img {
+        margin: auto;
+        width: 100px;
+        @include abstracts.screen(md) {
+            width: 70px;
+        }
+    }
+}

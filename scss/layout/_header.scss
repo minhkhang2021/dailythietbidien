@@ -1,0 +1,143 @@
+@use "../abstracts";
+%flexItemsCenter {
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    position: fixed;
+    z-index: 1;
+    // background: #fff;
+    width: 100%;
+    // @include abstracts.screen(lg) {
+    //     background: #faf9f9;
+    // }
+}
+//<!-- Cố định head -->
+.sticky {
+    background: #4e4e4e;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+    .logo {
+        &__img {
+            width: 70px;
+        }
+    }
+    .top-bar {
+        padding: 10px 0 10px 0;
+    }
+    .navbar__link {
+        color: #fff;
+        @include abstracts.screen(lg) {
+            color: var(--text-color);
+        }
+    }
+}
+.top-bar {
+    @extend %flexItemsCenter;
+    padding: 20px 0;
+    gap: 30px;
+    justify-content: space-around;
+    position: relative;
+
+    @include abstracts.screen(lg) {
+        gap: 10px;
+        flex-wrap: wrap;
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
+}
+
+.navbar {
+    flex-grow: 1;
+
+    @include abstracts.screen(lg) {
+        order: 4;
+        border-top: 1px solid #efefef;
+        border-bottom: 1px solid #efefef;
+        border-radius: 10px;
+    }
+
+    &__list {
+        @extend %flexItemsCenter;
+        justify-content: flex-end;
+        border: 10px;
+        border-radius: 10px;
+        @include abstracts.screen(lg) {
+            justify-content: space-around;
+            background: #fff;
+            opacity: 0.7;
+            // width: 100vw;
+        }
+    }
+
+    &__item {
+        &:first-child a {
+            padding-left: 0;
+        }
+        &:last-child a {
+            padding-right: 0;
+            border-right: 0;
+        }
+        &:hover .dropdown {
+            display: block;
+        }
+    }
+    &__link {
+        @extend %flexItemsCenter;
+
+        border-right: 1px solid #efefef;
+        padding: 0 10px;
+        height: 50px;
+        font-size: 1.8rem;
+        font-weight: 500;
+        line-height: 146.667%;
+        &:hover {
+            color: red;
+            font-weight: 700;
+        }
+        @include abstracts.screen(lg) {
+            border: 0;
+        }
+        @include abstracts.screen(md) {
+            height: 30px;
+        }
+    }
+}
+
+.top-act {
+    @extend %flexItemsCenter;
+    gap: 10px;
+
+    &__btn {
+        @extend %flexItemsCenter;
+        padding: 13px;
+        gap: 10px;
+        background-color: #eee;
+        border-radius: 20%;
+        min-width: 70px;
+        cursor: pointer;
+    }
+    &__title {
+        font-size: 2rem;
+        font-weight: 500;
+        line-height: 146.667%;
+    }
+    &__user {
+        cursor: pointer;
+    }
+    &__avatar {
+        display: block;
+        width: 55px;
+        border-radius: 20%;
+    }
+}
+.contac-bar {
+    @extend %flexItemsCenter;
+    gap: 10px;
+    &__hotline {
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 146.667%;
+        color: red;
+    }
+}

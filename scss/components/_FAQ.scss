@@ -1,0 +1,70 @@
+@use "../abstracts";
+.FAQ {
+    padding: 48px 0;
+    @include abstracts.screen(xl) {
+        padding: 20px 0;
+    }
+    // background: #b3b3b5;
+}
+.FAQ-inner {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+    &__thumb {
+        max-width: 40%;
+    }
+    &__img {
+        width: 100%;
+        // opacity: 0.7;
+    }
+}
+.FAQ-main {
+    width: 100%;
+    background: #eee;
+
+    border-radius: 7px;
+
+    &__question {
+        display: flex;
+        justify-content: flex-start;
+        margin: 16px 6px 0;
+    }
+    &__reply {
+        display: flex;
+        justify-content: flex-end;
+        margin: 16px 6px 0;
+        &:last-child {
+            margin-bottom: 16px;
+        }
+    }
+    &__content {
+        max-width: 70%;
+        padding: 12px;
+        background: #fff;
+        border-radius: 10px;
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 145%;
+    }
+    &__guest {
+        color: blue;
+        font-size: 1.6rem;
+        font-weight: 500;
+        line-height: 145%;
+        text-decoration: underline;
+    }
+    &__me {
+        color: red;
+        font-size: 1.6rem;
+        font-weight: 500;
+        line-height: 145%;
+        text-decoration: underline;
+        span {
+            color: black;
+            font-size: 1.4rem;
+            font-weight: 400;
+            line-height: 145%;
+        }
+    }
+}

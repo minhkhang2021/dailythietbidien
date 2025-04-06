@@ -1,0 +1,25 @@
+@use "../abstracts";
+.footer {
+    background: #4e4e4e;
+    padding: 48px 0;
+    @include abstracts.screen(xl) {
+        padding: 20px 0;
+    }
+}
+.footer-company {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    &__info {
+        display: flex;
+        align-items: center;
+    }
+
+    &__content {
+        color: #fff;
+        font-size: 1.6rem;
+        font-weight: 400;
+        line-height: 145%;
+        padding: 6px 12px;
+    }
+}

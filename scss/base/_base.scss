@@ -1,0 +1,38 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color: #1a162e;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6 rem;
+    font-family: Roboto, sans-serif;
+    color: var(--text-color);
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+button {
+    border: none;
+    outline: none;
+    background: transparent;
+}
+button,
+input,
+textarea,
+select {
+    font-family: inherit;
+    color: inherit;
+}
+.icon {
+    width: 24px;
+}
