@@ -7,7 +7,6 @@
     display: none;
     &__inner {
         --inner-padding: 30px;
-
         position: relative;
         padding: var(--inner-padding);
         background-color: #efefef;
@@ -20,8 +19,6 @@
 }
 .top-menu {
     --main-column-width: 250px;
-    opacity: 1;
-
     position: relative;
     &__main {
         width: var(--main-column-width);
@@ -37,6 +34,7 @@
 .menu-column {
     display: flex;
     gap: 14px;
+    opacity: 1;
 
     &__icon {
         flex-shrink: 0;
