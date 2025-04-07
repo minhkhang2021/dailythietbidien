@@ -133,11 +133,13 @@
 }
 .contac-bar {
     @extend %flexItemsCenter;
+    text-shadow: #fff 24px 15px 50px;
     gap: 10px;
     &__hotline {
         font-size: 3rem;
         font-weight: 700;
         line-height: 146.667%;
+
         color: red;
     }
 }

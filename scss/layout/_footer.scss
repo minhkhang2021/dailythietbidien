@@ -23,3 +23,90 @@
         padding: 6px 12px;
     }
 }
+
+// Contac Zalo-phone
+.contact-all-in-on {
+    position: fixed;
+    display: block;
+    align-items: center;
+    bottom: 30%;
+    right: 5%;
+}
+
+.button-contact {
+    ---color-background-zalo: #5092fc;
+    ---color-background-phone: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    @include abstracts.screen(sm) {
+        padding-top: 30px;
+    }
+
+    &__border {
+        position: relative;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        animation: zoom 1.5s ease infinite;
+        background: var(---color-background-zalo);
+        @include abstracts.screen(sm) {
+            width: 50px;
+            height: 50px;
+        }
+    }
+
+    &__item {
+        position: absolute;
+        z-index: 1;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        border-radius: 10%;
+
+        background-color: var(---color-background-zalo);
+        // &:hover .button-contact__content {
+        //     display: block;
+        // }
+    }
+
+    &__link {
+        color: #fff;
+    }
+    &__img {
+        width: 40px;
+        height: 40px;
+        border-radius: 10%;
+        @include abstracts.screen(sm) {
+            width: 30px;
+            height: 30px;
+        }
+    }
+    &__content {
+        width: 150px;
+        font-size: 1.4rem;
+        color: #fff;
+        font-weight: 500;
+        margin-left: 20px;
+        display: none;
+    }
+}
+.phone-ct {
+    background: var(---color-background-phone);
+}
+
+@keyframes zoom {
+    0% {
+        scale: 100%;
+        opacity: 0.9;
+    }
+    50% {
+        scale: 150%;
+        opacity: 0.5;
+    }
+    100% {
+        scale: 100%;
+        opacity: 0.9;
+    }
+}

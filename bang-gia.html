@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="vn">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="Thiết bị điện An Khang là nhà cung cấp sỉ, lẻ thiết bị điện xây dựng dân dụng và công nghiệp. Chúng tôi hiện hợp tác cùng nhiều nhà sản xuất, nhà nhập khẩu thiết bị điện hàng đầu Việt Nam và thế giới."
+        />
+        <meta
+            name="keywords"
+            content="bang-gia-day-cap-dien,bang-gia-thiet-bi-dien,bang-gia-tu-bu, bang-gia-dien-thong-minh"
+        />
+        <title>Giới thiệu về AN KHANG ELECTRIC đại lý thiết bị điện số 1</title>
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="./assets/favicon/favicon-96x96.png" sizes="96x96" />
+        <link rel="icon" type="image/svg+xml" href="./assets/favicon/favicon.svg" />
+        <link rel="shortcut icon" href="./assets/favicon/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png" />
+        <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+        <link rel="manifest" href="./assets/favicon/site.webmanifest" />
+        <!-- Font -->
+        <link rel="stylesheet" href="./assets/fonts/stylesheet.css" />
+        <!-- Styles -->
+        <link rel="stylesheet" href="./assets/css/main.css" />
+        <!-- Scripts -->
+        <script src="./assets/js/scripts.js"></script>
+    </head>
+    <body>
+        <header id="header" class="header"></header>
+        <script>
+            load("#header", "./template/header.html");
+        </script>
+        <div class="container">
+            <section class="map-path">
+                <div class="map-path__path">
+                    <a href="/" class="map-path__link">Bảng giá</a>
+                </div>
+            </section>
+
+            <!-- introduce -->
+            <section class="document">
+                <div class="document-inner">
+                    <div class="introduce-company__info">
+                        <h1 class="main-heading">AN KHANG <span>ELECTRIC</span></h1>
+                        
+                    </div>
+                    <div class="introduce-company__thumb d-md-none">
+                        <img
+                            src="./assets/img/introduce-company/introduce-thumb.png"
+                            alt="introduce-company"
+                            class="introduce-company__img"
+                        />
+                    </div>
+                </div>
+        </div>
+
+        <footer id="footer" class="footer"></footer>
+        <script>
+            load("#footer", "./template/footer.html");
+        </script>
+        <!-- Cố định head -->
+        <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+        <script>
+            $(document).ready(function () {
+                $(window).scroll(function () {
+                    if ($(this).scrollTop()) {
+                        $("header").addClass("sticky");
+                    } else {
+                        $("header").removeClass("sticky");
+                    }
+                });
+            });
+        </script>
+    </body>
+</html>

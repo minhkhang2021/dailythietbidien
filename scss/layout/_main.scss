@@ -1,14 +1,13 @@
 @use "../abstracts";
 .main-heading {
     position: relative;
-    font-size: 4rem;
-    font-weight: 600;
+    font-size: 3.2rem;
+    font-weight: 700;
     line-height: 145%;
-    color: red;
     padding-bottom: 24px;
     margin-bottom: 48px;
     @include abstracts.screen(xl) {
-        font-size: 3.2rem;
+        font-size: 2.6rem;
         padding-bottom: 16px;
         margin: 0;
     }
@@ -21,10 +20,103 @@
         border-bottom: 3px solid red;
     }
     span {
-        font-size: 3rem;
-        color: black;
+        font-size: 4rem;
+        color: rgb(255, 0, 0);
         @include abstracts.screen(xl) {
-            font-size: 2.4rem;
+            font-size: 3rem;
         }
+    }
+}
+
+// Giơi thiệu
+.map-path {
+    width: 100%;
+    padding-top: 150px;
+    &__path {
+        display: flex;
+        align-items: center;
+        border-top: 1px solid #eee;
+        border-bottom: 1px solid #eee;
+        height: 50px;
+        padding: 12px;
+    }
+    &__link {
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 145%;
+    }
+}
+
+// BÀi viết
+.article-content {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 145%;
+    padding-bottom: 12px;
+    text-indent: 36px;
+    text-align: justify;
+    h1 {
+        position: relative;
+        font-size: 3.2rem;
+        font-weight: 700;
+        line-height: 145%;
+        padding: 24px 0;
+        margin-bottom: 48px;
+        text-indent: 0px;
+        @include abstracts.screen(xl) {
+            font-size: 2.6rem;
+            padding-bottom: 16px;
+            margin: 0;
+        }
+        &:after {
+            content: "";
+            position: absolute;
+            bottom: 0px;
+            left: 0;
+            width: 150px;
+            border-bottom: 3px solid red;
+        }
+        span {
+            font-size: 4rem;
+            color: rgb(255, 0, 0);
+            @include abstracts.screen(xl) {
+                font-size: 3rem;
+            }
+        }
+    }
+
+    h2 {
+        font-size: 2.4rem;
+        font-weight: 600;
+        line-height: 145%;
+        padding: 24px;
+        @include abstracts.screen(md) {
+            padding-left: 0;
+            text-indent: 0px;
+        }
+    }
+    h3 {
+        font-size: 1.8rem;
+        font-weight: 500;
+        line-height: 145%;
+        padding: 12px;
+        @include abstracts.screen(md) {
+            padding-left: 0;
+            text-indent: 0px;
+        }
+    }
+
+    &__info {
+        display: flex;
+        align-items: center;
+    }
+
+    &__content {
+        color: #5224f8;
+        font-size: 1.6rem;
+        font-weight: 400;
+        line-height: 145%;
+        padding: 6px 12px;
+        text-indent: 0px;
     }
 }

@@ -7,6 +7,7 @@
     justify-content: space-between;
     padding: 100px 0;
     gap: 10px;
+    text-align: justify;
     @include abstracts.screen(xl) {
         padding: 20px 0;
     }

@@ -1,70 +1,122 @@
 @use "../abstracts";
-.product-main {
-    display: block;
-    padding: 50px 0;
-    @include abstracts.screen(xl) {
-        padding: 20px 0;
-    }
-    &__list {
-        display: grid;
-        justify-content: space-around;
-        align-items: center;
+.product {
+    display: grid;
+    margin: auto;
+    width: 100%;
+    gap: 10px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: 150px;
+    grid-template-areas:
+        "item9 item9 item1 item1 item2 item2"
+        "item8 item7 item1 item1 item5 item3"
+        "item8 item6 item6 item4 item5 item3";
+    @include abstracts.screen(lg) {
         grid-template-columns: repeat(4, 1fr);
-        @include abstracts.screen(xl) {
-            grid-template-columns: repeat(2, 1fr);
-        }
+        grid-auto-rows: 100px;
+        grid-template-areas:
+            "item1 item1 item1 item1 "
+            "item2 item2 item3 item3"
+            "item5 item5 item4 item4"
+            "item6 item6 item7 item7"
+            "item8 item8 item9 item9";
     }
+
+    &__item1 {
+        grid-area: item1;
+    }
+    &__item2 {
+        grid-area: item2;
+    }
+    &__item3 {
+        grid-area: item3;
+    }
+    &__item4 {
+        grid-area: item4;
+    }
+    &__item5 {
+        grid-area: item5;
+    }
+    &__item6 {
+        grid-area: item6;
+    }
+    &__item7 {
+        grid-area: item7;
+    }
+    &__item8 {
+        grid-area: item8;
+    }
+    &__item9 {
+        grid-area: item9;
+    }
+}
+
+.product-inner {
+    background: #f8b5b5;
+    padding: 24px 0;
+    position: relative;
+    border-radius: 20px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 145%;
+    text-align: center;
+
     &__item {
-        display: block;
-        justify-content: center;
-        align-items: center;
-        margin: auto;
-        &:hover .product-main__thumb > a > img {
-            width: 100%;
-            padding: 10px;
-        }
-
-        &:hover .product-main__link {
-            font-size: 1.8rem;
-            font-weight: 700;
-            color: red;
-            @include abstracts.screen(md) {
-                font-size: 1.3rem;
-            }
-        }
-    }
-    &__thumb {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 300px;
-        height: 200px;
-        border-radius: 20px;
-        @include abstracts.screen(md) {
-            width: 150px;
-            height: 150px;
-        }
-    }
-
-    &__img {
         width: 100%;
-        padding: 75px;
-        @include abstracts.screen(md) {
-            padding: 25px;
+        height: 100%;
+    }
+    &__img-main {
+        margin: auto;
+        padding-top: 24px;
+        max-width: 55%;
+        max-height: 55%;
+    }
+    &__img {
+        position: absolute;
+        object-fit: contain;
+        max-width: 80%;
+        max-height: 80%;
+        right: 5%;
+        bottom: 5%;
+    }
+    h2 {
+        font-size: 3.2rem;
+        font-weight: 700;
+        line-height: 145%;
+        @include abstracts.screen(xl) {
+            font-size: 2.4rem;
         }
     }
-    &__heading {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    &__link {
+
+    H3 {
+        position: absolute;
         font-size: 1.8rem;
         font-weight: 500;
         line-height: 145%;
         padding: 12px 0;
-        @include abstracts.screen(md) {
-            font-size: 1.3rem;
+        left: 5%;
+        top: 5%;
+        @include abstracts.screen(lg) {
+            font-size: 1.2rem;
+            left: 2%;
+            top: 2%;
+            padding: 3px 0;
         }
     }
 }
+// .product-main {
+//     display: block;
+//     padding: 50px 0;
+//     @include abstracts.screen(xl) {
+//         padding: 20px 0;
+//     }
+//     &__list {
+//         display: grid;
+//         justify-content: space-around;
+//         align-items: center;
+//         grid-template-columns: repeat(4, 1fr);
+//         @include abstracts.screen(xl) {
+//             grid-template-columns: repeat(2, 1fr);
+//         }
+//     }
+
+// }

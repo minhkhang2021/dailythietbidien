@@ -1,6 +1,7 @@
 @use "../abstracts";
 .FAQ {
     padding: 48px 0;
+    text-align: justify;
     @include abstracts.screen(xl) {
         padding: 20px 0;
     }
