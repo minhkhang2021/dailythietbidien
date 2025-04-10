@@ -48,13 +48,26 @@
 }
 
 // BÀi viết
+.article {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    @include abstracts.screen(lg) {
+        flex-direction: column;
+    }
+}
 .article-content {
+    width: 100%;
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 145%;
     padding-bottom: 12px;
     text-indent: 36px;
     text-align: justify;
+    @include abstracts.screen(lg) {
+        order: 2;
+    }
     h1 {
         position: relative;
         font-size: 3.2rem;
@@ -103,6 +116,26 @@
         @include abstracts.screen(md) {
             padding-left: 0;
             text-indent: 0px;
+        }
+    }
+    &__img1 {
+        display: block;
+        margin: auto;
+        text-align: center;
+        margin: 24px 0;
+        text-indent: 0px;
+        img {
+            width: 100%;
+        }
+    }
+    &__img2 {
+        display: block;
+        margin: auto;
+        text-align: center;
+        margin: 24px 0;
+        text-indent: 0px;
+        img {
+            width: 50%;
         }
     }
 
