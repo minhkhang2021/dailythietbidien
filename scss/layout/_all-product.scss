@@ -23,12 +23,8 @@
     }
 }
 .product-group {
-    // &__item {
-    //     display: flex;
-    //     flex-direction: column;
-    //     justify-content: center;
-    //     align-items: center;
-    // }
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
 }
 
 .product-item {
@@ -41,7 +37,10 @@
     &__thumb {
         display: flex;
         justify-content: center;
+        align-items: center;
+
         padding-bottom: 12px;
+        width: 150px;
     }
     &__img {
         width: 80%;
