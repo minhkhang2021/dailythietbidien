@@ -1551,39 +1551,6 @@ i {
     opacity: 0.9;
   }
 }
-.main-heading {
-  position: relative;
-  font-size: 3.2rem;
-  font-weight: 700;
-  line-height: 145%;
-  padding-bottom: 24px;
-  margin-bottom: 48px;
-}
-@media (max-width: 1199.98px) {
-  .main-heading {
-    font-size: 2.6rem;
-    padding-bottom: 16px;
-    margin: 0;
-  }
-}
-.main-heading:after {
-  content: "";
-  position: absolute;
-  bottom: 0px;
-  left: 0;
-  width: 150px;
-  border-bottom: 3px solid red;
-}
-.main-heading span {
-  font-size: 4rem;
-  color: rgb(255, 0, 0);
-}
-@media (max-width: 1199.98px) {
-  .main-heading span {
-    font-size: 3rem;
-  }
-}
-
 .map-path {
   width: 100%;
   padding-top: 150px;
@@ -1600,6 +1567,7 @@ i {
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 145%;
+  padding: 12px;
 }
 
 .article {
@@ -1727,6 +1695,16 @@ i {
   padding: 6px 12px;
   text-indent: 0px;
 }
+.article-content__keyword {
+  padding: 12px 0;
+  margin-top: 12px;
+  color: #dddddd;
+  font-style: italic;
+  text-decoration: underline;
+  font-size: 1.4rem;
+  line-height: 145%;
+  border-top: 1px solid #dddddd;
+}
 
 .brand-directory {
   width: 200px;
@@ -1832,6 +1810,16 @@ i {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
 }
+@media (max-width: 1199.98px) {
+  .product-group {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (max-width: 575.98px) {
+  .product-group {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 
 .product-item {
   display: flex;
@@ -1839,6 +1827,12 @@ i {
   justify-content: center;
   align-items: center;
   width: 200px;
+  padding-top: 12px;
+}
+@media (max-width: 1199.98px) {
+  .product-item {
+    width: 150px;
+  }
 }
 .product-item__thumb {
   display: flex;
@@ -1846,6 +1840,11 @@ i {
   align-items: center;
   padding-bottom: 12px;
   width: 150px;
+}
+@media (max-width: 1199.98px) {
+  .product-item__thumb {
+    width: 100px;
+  }
 }
 .product-item__img {
   width: 80%;
@@ -1942,6 +1941,39 @@ i {
   .related-products__item {
     background: #eee;
     border-radius: 10px;
+  }
+}
+
+.main-heading {
+  position: relative;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 145%;
+  padding-bottom: 24px;
+  margin-bottom: 48px;
+}
+@media (max-width: 1199.98px) {
+  .main-heading {
+    font-size: 2.6rem;
+    padding-bottom: 16px;
+    margin: 0;
+  }
+}
+.main-heading:after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 150px;
+  border-bottom: 3px solid red;
+}
+.main-heading span {
+  font-size: 4rem;
+  color: rgb(255, 0, 0);
+}
+@media (max-width: 1199.98px) {
+  .main-heading span {
+    font-size: 3rem;
   }
 }
 

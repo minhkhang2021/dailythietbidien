@@ -25,6 +25,12 @@
 .product-group {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    @include abstracts.screen(xl) {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    @include abstracts.screen(sm) {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 .product-item {
@@ -33,6 +39,10 @@
     justify-content: center;
     align-items: center;
     width: 200px;
+    padding-top: 12px;
+    @include abstracts.screen(xl) {
+        width: 150px;
+    }
 
     &__thumb {
         display: flex;
@@ -41,6 +51,9 @@
 
         padding-bottom: 12px;
         width: 150px;
+        @include abstracts.screen(xl) {
+            width: 100px;
+        }
     }
     &__img {
         width: 80%;

@@ -1,0 +1,29 @@
+@use "../abstracts";
+.main-heading {
+    position: relative;
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 145%;
+    padding-bottom: 24px;
+    margin-bottom: 48px;
+    @include abstracts.screen(xl) {
+        font-size: 2.6rem;
+        padding-bottom: 16px;
+        margin: 0;
+    }
+    &:after {
+        content: "";
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+        width: 150px;
+        border-bottom: 3px solid red;
+    }
+    span {
+        font-size: 4rem;
+        color: rgb(255, 0, 0);
+        @include abstracts.screen(xl) {
+            font-size: 3rem;
+        }
+    }
+}
