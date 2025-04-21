@@ -40,6 +40,16 @@
     align-items: center;
     width: 200px;
     padding-top: 12px;
+    &:hover .product-item__img {
+        width: 100%;
+    }
+    &:hover h3 {
+        color: red;
+        background: #eee;
+        border-radius: 10px;
+        font-size: 1.4rem;
+        font-weight: 500;
+    }
     @include abstracts.screen(xl) {
         width: 150px;
     }
@@ -51,14 +61,18 @@
 
         padding-bottom: 12px;
         width: 150px;
+        height: 150px;
         @include abstracts.screen(xl) {
             width: 100px;
         }
     }
     &__img {
         width: 80%;
+        border-radius: 10px;
     }
     &__heading {
+        width: 100%;
+        height: 70px;
         padding: 12px 0;
         text-align: center;
         font-size: 1.3rem;
@@ -66,6 +80,9 @@
         line-height: 145%;
     }
     &__brand {
+        display: flex;
+        align-items: center;
+        gap: 10px;
         width: 100%;
         border-top: 1px solid #eee;
         border-bottom: 1px solid #eee;

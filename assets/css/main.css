@@ -1706,6 +1706,64 @@ i {
   border-top: 1px solid #dddddd;
 }
 
+table {
+  border-collapse: collapse;
+  border-bottom: 1px solid #eee;
+  width: 80%;
+  margin: auto;
+}
+@media (max-width: 1199.98px) {
+  table {
+    width: 100%;
+    margin-top: 24px;
+  }
+}
+table img {
+  height: 20px;
+}
+table .btn-download {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  height: 30px;
+  align-items: center;
+  color: blue;
+  text-decoration: underline;
+}
+
+th,
+td {
+  border-top: 1px solid #eee;
+  text-align: center;
+  height: 40px;
+  vertical-align: middle;
+}
+@media (max-width: 767.98px) {
+  th,
+  td {
+    font-size: 1.5rem;
+  }
+}
+
+th {
+  background-color: #faaaaa;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+@media (max-width: 767.98px) {
+  th {
+    font-size: 1.5rem;
+  }
+}
+
+tr:nth-child(even) {
+  background: #eee;
+}
+
+.col-left {
+  text-align: left;
+}
+
 .brand-directory {
   width: 200px;
   border-left: 1px solid #eee;
@@ -1829,6 +1887,16 @@ i {
   width: 200px;
   padding-top: 12px;
 }
+.product-item:hover .product-item__img {
+  width: 100%;
+}
+.product-item:hover h3 {
+  color: red;
+  background: #eee;
+  border-radius: 10px;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
 @media (max-width: 1199.98px) {
   .product-item {
     width: 150px;
@@ -1840,6 +1908,7 @@ i {
   align-items: center;
   padding-bottom: 12px;
   width: 150px;
+  height: 150px;
 }
 @media (max-width: 1199.98px) {
   .product-item__thumb {
@@ -1848,8 +1917,11 @@ i {
 }
 .product-item__img {
   width: 80%;
+  border-radius: 10px;
 }
 .product-item__heading {
+  width: 100%;
+  height: 70px;
   padding: 12px 0;
   text-align: center;
   font-size: 1.3rem;
@@ -1857,6 +1929,9 @@ i {
   line-height: 145%;
 }
 .product-item__brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   width: 100%;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;

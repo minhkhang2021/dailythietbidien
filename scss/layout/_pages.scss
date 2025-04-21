@@ -145,3 +145,49 @@
         border-top: 1px solid #dddddd;
     }
 }
+table {
+    border-collapse: collapse;
+    border-bottom: 1px solid #eee;
+    width: 80%;
+    margin: auto;
+    @include abstracts.screen(xl) {
+        width: 100%;
+        margin-top: 24px;
+    }
+    img {
+        height: 20px;
+    }
+    .btn-download {
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        height: 30px;
+        align-items: center;
+        color: blue;
+        text-decoration: underline;
+    }
+}
+th,
+td {
+    border-top: 1px solid #eee;
+    text-align: center;
+    height: 40px;
+    vertical-align: middle;
+    @include abstracts.screen(md) {
+        font-size: 1.5rem;
+    }
+}
+th {
+    background-color: #faaaaa;
+    font-size: 1.8rem;
+    font-weight: 500;
+    @include abstracts.screen(md) {
+        font-size: 1.5rem;
+    }
+}
+tr:nth-child(even) {
+    background: #eee;
+}
+.col-left {
+    text-align: left;
+}
