@@ -1,0 +1,92 @@
+[
+    {
+        "label": "trắng",
+        "title": "Chọn mầu sắc:",
+        "children": [
+            {
+                "title": "Chọn nút chức năng:",
+                "name": "Công tắc thông minh 1 nút ấn màu trắng",
+                "label": "1 nút",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-o-cam-datic/blt-chu-nhat/cong-tac-1-nut-trang-blt-co-vien.jpg",
+                "thumbnails": [
+                    "/assets/img/thong-minh/hunonic/cong-tac-o-cam-datic/blt-chu-nhat/cong-tac-1-nut-trang-blt-co-vien.jpg",
+                    "/assets/img/thong-minh/hunonic/cong-tac-o-cam-datic/blt-chu-nhat/cong-tac-2-nut-trang-blt-co-vien.jpg",
+                    "/assets/img/thong-minh/hunonic/cong-tac-o-cam-datic/blt-chu-nhat/cong-tac-3-nut-trang-blt-co-vien.jpg",
+                    "/assets/img/thong-minh/hunonic/cong-tac-o-cam-datic/blt-chu-nhat/cong-tac-4-nut-trang-blt-co-vien.jpg",
+                    "/assets/img/thong-minh/hunonic/cong-tac-o-cam-datic/blt-chu-nhat/cong-tac-1-nut-trang-blt-co-vien.jpg",
+                    "/assets/img/thong-minh/hunonic/cong-tac-o-cam-datic/blt-chu-nhat/cong-tac-1-nut-trang-blt-co-vien.jpg",
+                    "/assets/img/thong-minh/hunonic/cong-tac-o-cam-datic/blt-chu-nhat/cong-tac-2-nut-trang-blt-co-vien.jpg",
+                    "/assets/img/thong-minh/hunonic/cong-tac-o-cam-datic/blt-chu-nhat/cong-tac-3-nut-trang-blt-co-vien.jpg",
+                    "/assets/img/thong-minh/hunonic/cong-tac-o-cam-datic/blt-chu-nhat/cong-tac-4-nut-trang-blt-co-vien.jpg",
+                    "/assets/img/thong-minh/hunonic/cong-tac-o-cam-datic/blt-chu-nhat/cong-tac-1-nut-trang-blt-co-vien.jpg",
+                    "/assets/img/thong-minh/hunonic/cong-tac-o-cam-datic/blt-chu-nhat/cong-tac-1-nut-trang-blt-co-vien.jpg"
+                ],
+                "price": "960000đ",
+                "discount": 50
+            },
+            {
+                "name": "Công tắc thông minh 2 nút ấn màu trắng",
+                "label": "2 nút",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-o-cam-datic/blt-chu-nhat/cong-tac-2-nut-trang-blt-co-vien.jpg",
+                "thumbnails": [
+                    "/assets/img/thong-minh/hunonic/cong-tac-o-cam-datic/blt-chu-nhat/cong-tac-1-nut-trang-blt-co-vien.jpg",
+                    "/assets/img/thong-minh/hunonic/cong-tac-o-cam-datic/blt-chu-nhat/cong-tac-1-nut-trang-blt-co-vien.jpg",
+                    "/assets/img/thong-minh/hunonic/cong-tac-o-cam-datic/blt-chu-nhat/cong-tac-1-nut-trang-blt-co-vien.jpg",
+                    "/assets/img/thong-minh/hunonic/cong-tac-o-cam-datic/blt-chu-nhat/cong-tac-1-nut-trang-blt-co-vien.jpg",
+                    "/assets/img/thong-minh/hunonic/cong-tac-o-cam-datic/blt-chu-nhat/cong-tac-1-nut-trang-blt-co-vien.jpg",
+                    "/assets/img/thong-minh/hunonic/cong-tac-o-cam-datic/blt-chu-nhat/cong-tac-1-nut-trang-blt-co-vien.jpg"
+                ],
+                "price": "996000đ",
+                "discount": 50
+            },
+            {
+                "name": "Công tắc thông minh 3 nút ấn màu trắng",
+                "label": "3 nút",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-o-cam-datic/blt-chu-nhat/cong-tac-3-nut-trang-blt-co-vien.jpg",
+                "price": "1090000đ",
+                "discount": 50
+            },
+            {
+                "name": "Công tắc thông minh 4 nút ấn màu trắng",
+                "label": "4 nút",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-o-cam-datic/blt-chu-nhat/cong-tac-4-nut-trang-blt-co-vien.jpg",
+                "price": "1150000đ",
+                "discount": 50
+            }
+        ]
+    },
+    {
+        "name": "đen",
+        "children": [
+            {
+                "title": "Chọn nút chức năng:",
+                "name": "Công tắc thông minh 1 nút ấn màu đen",
+                "label": "1 nút",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-o-cam-datic/blt-chu-nhat/cong-tac-1-nut-den-blt-co-vien.jpg",
+                "price": "960000đđ",
+                "discount": 50
+            },
+            {
+                "name": "Công tắc thông minh 2 nút ấn màu đen",
+                "label": "2 nút",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-o-cam-datic/blt-chu-nhat/cong-tac-2-nut-den-blt-co-vien.jpg",
+                "price": "996000đ",
+                "discount": 50
+            },
+            {
+                "name": "Công tắc thông minh 3 nút ấn màu đen",
+                "label": "3 nút",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-o-cam-datic/blt-chu-nhat/cong-tac-3-nut-den-blt-co-vien.jpg",
+                "price": "1090000đ",
+                "discount": 50
+            },
+            {
+                "name": "Công tắc thông minh 4 nút ấn màu đen",
+                "label": "4 nút",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-o-cam-datic/blt-chu-nhat/cong-tac-4-nut-den-blt-co-vien.jpg",
+                "price": "1150000đ",
+                "discount": 50
+            }
+        ]
+    }
+]

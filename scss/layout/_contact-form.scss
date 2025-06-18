@@ -1,0 +1,42 @@
+.contact-form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 2px 12px rgba(255, 0, 0, 0.1);
+    &__list {
+        padding-bottom: 24px;
+    }
+    &__heading {
+        text-decoration: underline;
+        font-size: 2.2rem;
+        font-weight: 700;
+    }
+    &__link {
+        display: flex;
+        align-items: center;
+        font-size: 1.8rem;
+        font-weight: 500;
+        margin: 12px;
+        padding-left: 24px;
+        gap: 20px;
+    }
+    &__user {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    &__zalo {
+        width: 40px;
+        border-radius: 8px;
+        background-color: var(---color-background-zalo);
+    }
+    &__phone {
+        width: 40px;
+        border-radius: 8px;
+        background-color: var(---color-background-phone);
+    }
+    &__name {
+    }
+}

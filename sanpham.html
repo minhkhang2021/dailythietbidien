@@ -69,56 +69,58 @@
         <script>
             load("#header", "./template/header.html");
         </script>
-        <div class="container">
-            <section class="map-path">
-                <div class="map-path__path">
-                    <a href="" class="map-path__link">Thiết bị điện Chint</a>
+        <main class="product-page">
+            <div class="container">
+                <ul class="breadcrumbs">
+                    <li class="breadcrumbs__item">
+                        <a href="" class="breadcrumbs__link">Sản phẩm</a>
+                    </li>
+                </ul>
+                <div class="product-details">
+                    <div class="product-thumb">
+                        <ul class="product-thumb__abc">
+                            <li class="product-thumb__list">
+                                <div class="product-thumb__details">
+                                    <img
+                                        src="./assets/img/thong-minh/hunonic/Datic-Basic/cong-tac-dieu-khien-tu-xa-datic-basic.jpg"
+                                        alt=""
+                                        class="product-thumb__thumb"
+                                    />
+                                    <img
+                                        src="./assets/img/thong-minh/hunonic/Datic-Basic/cong-tac-dieu-khien-tu-xa-datic-basic.jpg"
+                                        alt=""
+                                        class="product-thumb__img"
+                                    />
+                                </div>
+                            </li>
+                            <li class="product-thumb__list">
+                                <div class="product-thumb__details">
+                                    <img
+                                        src="./assets/img/thong-minh/hunonic/Datic-Basic/cong-tac-dieu-khien-tu-xa-datic-basic.jpg"
+                                        alt=""
+                                        class="product-thumb__thumb"
+                                    />
+                                    <img
+                                        src="./assets/img/thong-minh/hunonic/Datic-Basic/cong-tac-dieu-khien-tu-xa-datic-basic.jpg"
+                                        alt=""
+                                        class="product-thumb__img"
+                                    />
+                                </div>
+                            </li>
+                            <li class="product-thumb__list"></li>
+                            <li class="product-thumb__list"></li>
+                            <li class="product-thumb__list"></li>
+                        </ul>
+                    </div>
+                    <div class="product-details__info"></div>
                 </div>
-            </section>
-            <div class="product-details">
-                <div class="product-thumb">
-                    <ul class="product-thumb__abc">
-                        <li class="product-thumb__list">
-                            <div class="product-thumb__details">
-                                <img
-                                    src="./assets/img/thong-minh/hunonic/Datic-Basic/cong-tac-dieu-khien-tu-xa-datic-basic.jpg"
-                                    alt=""
-                                    class="product-thumb__thumb"
-                                />
-                                <img
-                                    src="./assets/img/thong-minh/hunonic/Datic-Basic/cong-tac-dieu-khien-tu-xa-datic-basic.jpg"
-                                    alt=""
-                                    class="product-thumb__img"
-                                />
-                            </div>
-                        </li>
-                        <li class="product-thumb__list">
-                            <div class="product-thumb__details">
-                                <img
-                                    src="./assets/img/thong-minh/hunonic/Datic-Basic/cong-tac-dieu-khien-tu-xa-datic-basic.jpg"
-                                    alt=""
-                                    class="product-thumb__thumb"
-                                />
-                                <img
-                                    src="./assets/img/thong-minh/hunonic/Datic-Basic/cong-tac-dieu-khien-tu-xa-datic-basic.jpg"
-                                    alt=""
-                                    class="product-thumb__img"
-                                />
-                            </div>
-                        </li>
-                        <li class="product-thumb__list"></li>
-                        <li class="product-thumb__list"></li>
-                        <li class="product-thumb__list"></li>
-                    </ul>
-                </div>
-                <div class="product-details__info"></div>
+                <!-- all-product -->
+                <section id="all-product" class="all-product"></section>
+                <script>
+                    load("#all-product", "./template/TBDCN/chint/all-product.html");
+                </script>
             </div>
-            <!-- all-product -->
-            <section id="all-product" class="all-product"></section>
-            <script>
-                load("#all-product", "./template/TBDCN/chint/all-product.html");
-            </script>
-        </div>
+        </main>
         <footer id="footer" class="footer"></footer>
         <script>
             load("#footer", "./template/footer.html");
@@ -126,16 +128,6 @@
 
         <!-- Cố định head -->
         <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
-        <script>
-            $(document).ready(function () {
-                $(window).scroll(function () {
-                    if ($(this).scrollTop()) {
-                        $("header").addClass("sticky");
-                    } else {
-                        $("header").removeClass("sticky");
-                    }
-                });
-            });
-        </script>
+        <script src="/assets/js/co-dinh-head.js"></script>
     </body>
 </html>

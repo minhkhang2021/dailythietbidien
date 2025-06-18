@@ -1,0 +1,234 @@
+@use "../abstracts";
+
+// =============================
+// GIAO DIỆN CHUNG TOÀN TRANG SẢN PHẨM
+// =============================
+
+.product-page {
+    display: flex;
+    flex-direction: column;
+    @include abstracts.screen(lg) {
+        flex-direction: row; // Khi màn hình lớn, chia thành hàng ngang
+        flex-wrap: wrap;
+    }
+}
+
+.product-container {
+    margin-top: 30px; // Khoảng cách phía trên
+    max-width: 100%;
+}
+
+.product-sp {
+    display: flex;
+    justify-content: center;
+    gap: 30px; // Khoảng cách giữa ảnh và mô tả
+    @include abstracts.screen(lg) {
+        flex-direction: column; // Khi màn nhỏ, xếp dọc
+    }
+}
+
+.prod-image-preview {
+    width: 50%; // Ảnh chiếm 1 nửa
+    @include abstracts.screen(lg) {
+        width: 100%; // Trên mobile chiếm toàn bộ
+    }
+}
+
+// =============================
+// KHỐI THÔNG TIN SẢN PHẨM (BÊN PHẢI)
+// =============================
+
+.prod-info {
+    width: 50%;
+    @include abstracts.screen(lg) {
+        width: 100%;
+    }
+
+    &__heading {
+        font-size: clamp(2.2rem, 5vw, 3.2rem); // Tự động điều chỉnh kích thước
+        font-weight: 700;
+        line-height: 145%;
+        padding-bottom: 12px;
+        margin-bottom: 12px;
+        @include abstracts.screen(md) {
+            text-align: center; // Căn giữa trên mobile
+        }
+    }
+
+    &__desc {
+        font-size: 1.6rem;
+        font-weight: 400;
+        line-height: 160%;
+        margin: 20px; // Khoảng cách quanh đoạn mô tả
+    }
+}
+
+// =============================
+// PHẦN ĐÁNH GIÁ VÀ GIÁ BÁN
+// =============================
+
+.prod-prod {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+
+    &__icon {
+        width: 120px;
+        @include abstracts.screen(lg) {
+            width: 100px;
+        }
+    }
+
+    &__danh-gia {
+        display: inline-block;
+        color: var(--border-color);
+        padding: 0 12px;
+        border-right: 1px solid #eee; // Phân cách đánh giá
+    }
+}
+
+// =============================
+// NÚT LIÊN HỆ (VD: ZALO)
+// =============================
+
+.prod-contact {
+    display: flex;
+    width: 250px;
+    height: 50px;
+    border: 2px solid var(--border-color);
+    border-radius: 50px; // Bo tròn nút
+    @include abstracts.screen(lg) {
+        width: 100%; // Mobile full width
+    }
+    &__content {
+        margin: auto; // Căn giữa nội dung
+    }
+    &__link {
+        margin: auto;
+        font-size: 2.4rem;
+        font-weight: 600;
+        color: var(--border-color);
+    }
+}
+
+// =============================
+// CAM KẾT – CHÍNH SÁCH BẢO HÀNH
+// =============================
+
+.prod-commit {
+    width: 100%;
+    background: var(--background-color);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+
+    &__content {
+        font-size: 1.4rem;
+        line-height: 145%;
+    }
+}
+
+// =============================
+// TAB: Thông tin chi tiết - đánh giá - bảo hành...
+// =============================
+
+.prod-tab {
+    &__list {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        overflow-x: auto; // Trượt ngang nếu quá dài
+        margin: 0;
+        @include abstracts.screen(lg) {
+            gap: 20px;
+        }
+        @include abstracts.screen(md) {
+            justify-content: center; // Căn giữa trên mobile
+        }
+    }
+
+    &__item {
+        color: #9e9da8;
+        font-size: 2.2rem;
+        font-weight: 500;
+        line-height: 145.455%;
+        user-select: none;
+        cursor: pointer;
+        @include abstracts.screen(lg) {
+            font-size: 1.8rem;
+        }
+
+        &--current {
+            color: inherit;
+            border-bottom: 5px solid var(--border-color); // Gạch chân tab đang chọn
+        }
+    }
+
+    &__contents {
+        padding-top: 30px;
+    }
+
+    &__content {
+        display: none;
+
+        &--current {
+            display: flex;
+            gap: 30px;
+        }
+    }
+}
+
+// =============================
+// MỞ RỘNG – RÚT GỌN VĂN BẢN DÀI
+// =============================
+
+.text-collapse {
+    position: relative;
+    max-width: 100%;
+    flex-grow: 2;
+
+    &__content {
+        max-height: 550px;
+        padding: 24px 24px 24px 48px;
+        border-left: 5px solid var(--border-color);
+        border-top: 5px solid var(--border-color);
+        background: rgba(230, 56, 56, 0.01);
+        border-radius: 20px 0 0 0;
+        overflow: hidden;
+        position: relative;
+        transition: max-height 0.3s ease;
+
+        @include abstracts.screen(md) {
+            border-left: 0;
+            border-radius: 20px 20px 0 0;
+            padding: 10px;
+            background: rgba(230, 56, 56, 0.04);
+        }
+    }
+
+    &__toggle {
+        display: inline-block;
+        width: 100%;
+        height: 50px;
+        margin-top: 10px;
+        margin-bottom: 50px;
+        border-radius: 10px;
+        border: 2px solid var(--border-color);
+        background-color: transparent;
+        color: #007bff;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 2.2rem;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    &.expanded &__content {
+        max-height: 9999px; // Mở rộng toàn bộ nội dung khi toggle bật
+    }
+}

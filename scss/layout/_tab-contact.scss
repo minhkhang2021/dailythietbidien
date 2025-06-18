@@ -1,0 +1,23 @@
+.tab-contact {
+    padding-bottom: 20px;
+    &__title {
+        font-weight: 600;
+    }
+    .urgent-support {
+        background: #fff9ec;
+        border-left: 4px solid #ffc107;
+        padding: 1rem;
+        border-radius: 8px;
+        font-style: italic;
+    }
+
+    .contact-note {
+        margin-top: 1.5rem;
+        background: #e6f4ea;
+        padding: 0.8rem 1rem;
+        border-left: 4px solid #28a745;
+        font-weight: bold;
+        border-radius: 8px;
+        color: #155724;
+    }
+}

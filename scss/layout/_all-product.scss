@@ -1,5 +1,6 @@
 @use "../abstracts";
 .product-details {
+    max-width: 100%;
     &__heading {
         position: relative;
         font-size: 3.2rem;

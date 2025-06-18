@@ -1,0 +1,64 @@
+.review-form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 2px 12px rgba(255, 0, 0, 0.1);
+
+    label {
+        display: block;
+        margin-top: 1rem;
+        font-weight: 600;
+    }
+
+    input[type="text"],
+    select,
+    textarea,
+    input[type="file"] {
+        width: 100%;
+        padding: 0.6rem;
+        margin-top: 0.4rem;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+    }
+
+    .rating-group {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+        margin-top: 0.4rem;
+
+        input[type="radio"] {
+            display: none;
+        }
+
+        label {
+            color: #ccc;
+            cursor: pointer;
+            margin-right: 5px;
+            transition: color 0.3s;
+
+            &:hover,
+            &:hover ~ label,
+            input[type="radio"]:checked ~ label {
+                color: #f39c12;
+            }
+        }
+    }
+
+    button {
+        margin-top: 1.5rem;
+        padding: 0.8rem 1.5rem;
+        background: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background 0.3s;
+
+        &:hover {
+            background: #0056b3;
+        }
+    }
+}

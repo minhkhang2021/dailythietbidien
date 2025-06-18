@@ -1,0 +1,28 @@
+<form class="review-form" id="reviewForm">
+    <div class="text-content">
+        <h3>Gửi đánh giá của bạn</h3>
+        <label for="name">Họ và tên *</label>
+        <input type="text" id="name" name="name" required />
+        <label for="product">Sản phẩm *</label>
+        <select id="product" name="product" required>
+            <option value="">-- Chọn sản phẩm --</option>
+            <option value="Aptomat LS">Aptomat LS</option>
+            <option value="Contactor LS">Contactor LS</option>
+            <option value="Công tắc Hunonic">Công tắc thông minh Hunonic</option>
+        </select>
+        <label>Đánh giá *</label>
+        <div class="rating-group">
+            <input type="radio" id="star5" name="rating" value="5" required /><label for="star5">★</label>
+            <input type="radio" id="star4" name="rating" value="4" /><label for="star4">★</label>
+            <input type="radio" id="star3" name="rating" value="3" /><label for="star3">★</label>
+            <input type="radio" id="star2" name="rating" value="2" /><label for="star2">★</label>
+            <input type="radio" id="star1" name="rating" value="1" /><label for="star1">★</label>
+        </div>
+        <label for="message">Nội dung đánh giá *</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <label for="image">Tải lên ảnh minh họa (tùy chọn)</label>
+        <input type="file" id="image" name="image" accept="image/*" multiple />
+        <button type="submit">Gửi đánh giá</button>
+        <div id="formResult" style="margin-top: 1rem"></div>
+    </div>
+</form>

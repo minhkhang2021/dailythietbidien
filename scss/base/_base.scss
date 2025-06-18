@@ -6,6 +6,11 @@
 
 :root {
     --text-color: #1a162e;
+    --border-color: red;
+    --background-color: rgb(252, 126, 126, 0.3);
+    --price-color: rgb(230, 58, 58);
+    ---color-background-zalo: #5092fc;
+    ---color-background-phone: red;
 }
 
 html {
@@ -16,6 +21,8 @@ body {
     font-size: 1.6 rem;
     font-family: Roboto, sans-serif;
     color: var(--text-color);
+    text-align: justify;
+    // overflow-x: hidden;
 }
 a {
     color: inherit;
@@ -38,9 +45,10 @@ select {
 }
 b,
 strong {
-    font-weight: bold;
+    font-weight: 600;
 }
 
-i {
+i,
+em {
     font-style: italic;
 }

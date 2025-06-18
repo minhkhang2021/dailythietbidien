@@ -1,0 +1,67 @@
+@use "../abstracts";
+
+.review {
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+    &__row {
+        display: flex;
+        gap: 16px;
+        border-radius: 12px;
+    }
+    &__avatar {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: 2px solid #0073e6;
+        object-fit: cover;
+    }
+    &__body {
+        display: flex;
+        width: 100%;
+        gap: 16px;
+        padding: 1rem;
+        border: 1px solid #eee;
+        border-radius: 12px;
+        background: #fff;
+        margin-bottom: 1.5rem;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        @include abstracts.screen(md) {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    }
+    &__header {
+        flex-grow: 2;
+    }
+    &__stars {
+        color: #f39c12; // Vàng sao
+        margin-right: 0.5rem;
+    }
+}
+
+.review-images {
+    display: flex;
+    gap: 10px;
+    margin-top: 1rem;
+    @include abstracts.screen(md) {
+        margin-top: 0;
+    }
+
+    &__img {
+        width: 100px;
+        height: auto;
+        border-radius: 8px;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+        @include abstracts.screen(md) {
+            padding-top: 0;
+        }
+    }
+}
