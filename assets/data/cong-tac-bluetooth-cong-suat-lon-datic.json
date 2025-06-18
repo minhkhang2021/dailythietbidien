@@ -1,0 +1,47 @@
+[
+    {
+        "title": "Chọn mầu sắc:",
+        "label": "trắng",
+        "children": [
+            {
+                "title": "Chọn nút chức năng:",
+                "name": "Công tắc thông minh công suất lớn - chống giật mầu trắng hình chữ nhật",
+                "label": "chữ nhật",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-o-cam-datic/blt-chu-nhat/cong-tac-csl-trang-blt-co-vien.jpg",
+                "thumbnails": [],
+                "price": "1190000đ",
+                "discount": 50
+            },
+            {
+                "name": "Công tắc thông minh công suất lớn - chống giật mầu trắng hình vuông",
+                "label": "Vuông",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-o-cam-datic/blt-vuong/csl-trang.jpg",
+                "thumbnails": [],
+                "price": "",
+                "discount": 50
+            }
+        ]
+    },
+    {
+        "label": "đen",
+        "children": [
+            {
+                "title": "Chọn nút chức năng:",
+                "name": "Công tắc thông minh công suất lớn - chống giật mầu đen hình chữ nhật",
+                "label": "chữ nhật",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-o-cam-datic/blt-chu-nhat/cong-tac-csl-den-blt-co-vien.jpg",
+                "thumbnails": [],
+                "price": "1190000đ",
+                "discount": 50
+            },
+            {
+                "name": "Công tắc thông minh công suất lớn - chống giật mầu đen hình vuông",
+                "label": "Vuông",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-o-cam-datic/blt-vuong/csl-den.jpg",
+                "thumbnails": [],
+                "price": "",
+                "discount": 50
+            }
+        ]
+    }
+]

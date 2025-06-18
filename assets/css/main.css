@@ -2869,7 +2869,7 @@ tr:nth-child(even) {
 }
 
 .attribute-option {
-  width: 70px;
+  min-width: 70px;
   text-align: center;
   display: inline-block;
   margin: 6px 8px 6px 0;
@@ -2922,6 +2922,7 @@ tr:nth-child(even) {
   font-weight: bold;
   font-size: 18px;
   margin-bottom: 6px;
+  padding-bottom: 12px;
 }
 
 .prod-checkbox-original {
@@ -3053,7 +3054,7 @@ tr:nth-child(even) {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 90%;
+  max-width: 50%;
 }
 .text-content img + em {
   display: block;
@@ -3077,6 +3078,11 @@ tr:nth-child(even) {
   height: 1px;
   margin: 4px 0;
   background: #ebebeb;
+}
+.text-content .tags {
+  color: #ccc;
+  font-style: italic;
+  text-decoration: underline;
 }
 
 .product-page {

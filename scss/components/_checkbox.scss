@@ -87,7 +87,7 @@
 }
 
 .attribute-option {
-    width: 70px;
+    min-width: 70px;
     text-align: center;
     display: inline-block;
     margin: 6px 8px 6px 0;
@@ -140,6 +140,7 @@
     font-weight: bold;
     font-size: 18px;
     margin-bottom: 6px;
+    padding-bottom: 12px;
 }
 
 .prod-checkbox-original {
