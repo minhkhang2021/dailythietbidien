@@ -1,0 +1,65 @@
+[
+    {
+        "label": "trắng",
+        "title": "Chọn mầu sắc:",
+        "children": [
+            {
+                "title": "Chọn nút chức năng:",
+                "name": "Công tắc Bluetooth Mesh thông minh Datic 1 nút ấn màu trắng Vuông",
+                "label": "1 nút",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-o-cam-datic/blt-vuong/1-nut-trang.jpg",
+                "thumbnails": [],
+                "price": "đang cập nhật..."
+            },
+            {
+                "name": "Công tắc Bluetooth Mesh thông minh Datic 2 nút ấn màu trắng Vuông",
+                "label": "2 nút",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-o-cam-datic/blt-vuong/2-nut-trang.jpg",
+                "thumbnails": [],
+                "price": "đang cập nhật..."
+            },
+            {
+                "name": "Công tắc Bluetooth Mesh thông minh Datic 3 nút ấn màu trắng Vuông",
+                "label": "3 nút",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-o-cam-datic/blt-vuong/3-nut-trang.jpg",
+                "price": "đang cập nhật..."
+            },
+            {
+                "name": "Công tắc Bluetooth Mesh thông minh Datic 4 nút ấn màu trắng Vuông",
+                "label": "4 nút",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-o-cam-datic/blt-vuong/4-nut-trang.jpg",
+                "price": "đang cập nhật..."
+            }
+        ]
+    },
+    {
+        "label": "đen",
+        "children": [
+            {
+                "title": "Chọn nút chức năng:",
+                "name": "Công tắc Bluetooth Mesh thông minh Datic 1 nút ấn màu đen Vuông",
+                "label": "1 nút",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-o-cam-datic/blt-vuong/1-nut-den.jpg",
+                "price": "đang cập nhật..."
+            },
+            {
+                "name": "Công tắc Bluetooth Mesh thông minh Datic 2 nút ấn màu đen Vuông",
+                "label": "2 nút",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-o-cam-datic/blt-vuong/2-nut-den.jpg",
+                "price": "đang cập nhật..."
+            },
+            {
+                "name": "Công tắc Bluetooth Mesh thông minh Datic 3 nút ấn màu đen Vuông",
+                "label": "3 nút",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-o-cam-datic/blt-vuong/3-nut-den.jpg",
+                "price": "đang cập nhật..."
+            },
+            {
+                "name": "Công tắc Bluetooth Mesh thông minh Datic 4 nút ấn màu đen Vuông",
+                "label": "4 nút",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-o-cam-datic/blt-vuong/4-nut-den.jpg",
+                "price": "đang cập nhật..."
+            }
+        ]
+    }
+]

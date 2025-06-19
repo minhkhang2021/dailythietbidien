@@ -12,6 +12,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const thumbnailContainer = document.querySelector(".prod-checkbox-thumbnails");
     const mode = parseInt(groupEls[0]?.dataset.mode || "1");
 
+    const leftArrow = document.querySelector(".thumbnail-arrow.left");
+    const rightArrow = document.querySelector(".thumbnail-arrow.right");
+
     fetch(jsonUrl)
         .then((res) => res.json())
         .then((data) => {
@@ -21,7 +24,6 @@ document.addEventListener("DOMContentLoaded", () => {
         .catch((err) => console.error("Lỗi khi load JSON:", err));
 
     function renderLevel(data, level, parentEl, autoSelect) {
-        // Xóa cấp đã có
         parentEl.querySelectorAll(`.attribute-level[data-level="${level}"]`).forEach((el) => el.remove());
 
         const wrapper = document.createElement("div");
@@ -68,9 +70,9 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function showProduct(product) {
-        const rawPrice = parseInt(product.price.replace(/[^\d]/g, ""));
+        const priceValue = product.price?.toString().replace(/[^\d]/g, "") || "";
+        const isNumeric = /^\d+([\.,]?\d+)?$/.test(priceValue);
         const discount = product.discount || 0;
-        const finalPrice = rawPrice - (rawPrice * discount) / 100;
         const formatVND = (n) => n.toLocaleString("vi-VN") + "đ";
 
         if (titleContainer) {
@@ -85,11 +87,17 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         if (priceContainer) {
-            priceContainer.innerHTML = `
-                <div class="prod-checkbox-original"><s>${formatVND(rawPrice)}</s></div>
-                <div class="prod-checkbox-discount">${discount}%</div>
-                <div class="prod-checkbox-final">${formatVND(finalPrice)}</div>
-            `;
+            if (isNumeric) {
+                const rawPrice = parseInt(priceValue);
+                const finalPrice = rawPrice - (rawPrice * discount) / 100;
+                priceContainer.innerHTML = `
+                    <div class="prod-checkbox-original"><s>${formatVND(rawPrice)}</s></div>
+                    <div class="prod-checkbox-discount">${discount}%</div>
+                    <div class="prod-checkbox-final">${formatVND(finalPrice)}</div>
+                `;
+            } else {
+                priceContainer.innerHTML = `<div class="prod-checkbox-final is-string">${product.price}</div>`;
+            }
         }
 
         if (mode === 1 && thumbnailContainer) {
@@ -164,6 +172,24 @@ document.addEventListener("DOMContentLoaded", () => {
             });
 
             thumbnailContainer.appendChild(thumb);
+        });
+    }
+
+    // XỬ LÝ NÚT CUỘN TRÁI / PHẢI CHO THUMBNAIL
+    const scrollAmount = 100;
+    if (leftArrow && rightArrow && thumbnailContainer) {
+        leftArrow.addEventListener("click", () => {
+            thumbnailContainer.scrollBy({
+                left: -scrollAmount,
+                behavior: "smooth",
+            });
+        });
+
+        rightArrow.addEventListener("click", () => {
+            thumbnailContainer.scrollBy({
+                left: scrollAmount,
+                behavior: "smooth",
+            });
         });
     }
 });

@@ -73,6 +73,11 @@
         margin: 4px 0;
         background: #ebebeb;
     }
+    .product-gallery {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .tags {
         color: #ccc;
         font-style: italic;

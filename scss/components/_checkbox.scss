@@ -155,10 +155,30 @@
 }
 
 .prod-checkbox-final {
-    font-size: 2.8rem;
+    font-size: 3.2rem;
     font-weight: bold;
-    color: #28a745;
+    color: #d32f2f; // Màu đỏ nổi bật
     margin-top: 8px;
+    // Nếu là giá dạng chữ như "Liên hệ", có thể thêm style riêng
+    // ✅ Giá là số (định dạng thông thường, ví dụ 1.200.000đ)
+    &:not(.is-string) {
+        color: #2e7d32; // Màu xanh đậm
+    }
+
+    // ❌ Giá không phải là số (ví dụ: "Liên hệ", "Chưa cập nhật")
+    &.is-string {
+        color: #d32f2f; // Màu đỏ nổi bật
+        font-style: italic; // In nghiêng để phân biệt rõ
+        padding: 6px 12px;
+        border-radius: 6px;
+        display: inline-block;
+
+        // Biểu tượng phía trước giúp gợi ý đây là đoạn văn bản, không phải giá tiền
+        &::before {
+            content: "💬 ";
+            margin-right: 4px;
+        }
+    }
 }
 
 .prod-checkbox-thumbnails-wrapper {
