@@ -1,0 +1,47 @@
+[
+    {
+        "title": "Sản phẩm:",
+        "label": "Cảm biến HPR",
+        "children": [
+            {
+                "title": "Kiểu dáng:",
+                "name": "Cảm biến hiện diện HPR Ốp Trần",
+                "label": "Ốp Trần",
+                "image": "/assets/img/thong-minh/hunonic/cam-bien-hien-dien/cam-bien-hien-dien-3.jpg",
+                "thumbnails": [
+                    "/assets/img/thong-minh/hunonic/cam-bien-hien-dien/cam-bien-hien-dien-3.jpg",
+                    "/assets/img/thong-minh/hunonic/cam-bien-hien-dien/cam-bien-hien-dien-2.jpg",
+                    "/assets/img/thong-minh/hunonic/cam-bien-hien-dien/cam-bien-hien-dien-1.jpg",
+                    "/assets/img/thong-minh/hunonic/cam-bien-hien-dien/cam-bien-hien-dien-4.jpg",
+                    "/assets/img/thong-minh/hunonic/cam-bien-hien-dien/cam-bien-hien-dien-5.jpg",
+                    "/assets/img/thong-minh/hunonic/cam-bien-hien-dien/cam-bien-hien-dien-6.jpg",
+                    "/assets/img/thong-minh/hunonic/cam-bien-hien-dien/cam-bien-hien-dien-7.jpg",
+                    "/assets/img/thong-minh/hunonic/cam-bien-hien-dien/cam-bien-hien-dien-8.jpg",
+                    "/assets/img/thong-minh/hunonic/cam-bien-hien-dien/cam-bien-hien-dien-9.jpg",
+                    "/assets/img/thong-minh/hunonic/cam-bien-hien-dien/cam-bien-hien-dien-10.jpg"
+                ],
+                "price": "990000đ",
+                "discount": 50
+            },
+            {
+                "name": "cảm biến hiện diện HPR Âm Trần",
+                "label": "Âm Trần",
+                "image": "/assets/img/thong-minh/hunonic/cam-bien-hien-dien/cam-bien-hien-dien-2.jpg",
+                "thumbnails": [
+                    "/assets/img/thong-minh/hunonic/cam-bien-hien-dien/cam-bien-hien-dien-2.jpg",
+                    "/assets/img/thong-minh/hunonic/cam-bien-hien-dien/cam-bien-hien-dien-1.jpg",
+                    "/assets/img/thong-minh/hunonic/cam-bien-hien-dien/cam-bien-hien-dien-3.jpg",
+                    "/assets/img/thong-minh/hunonic/cam-bien-hien-dien/cam-bien-hien-dien-4.jpg",
+                    "/assets/img/thong-minh/hunonic/cam-bien-hien-dien/cam-bien-hien-dien-5.jpg",
+                    "/assets/img/thong-minh/hunonic/cam-bien-hien-dien/cam-bien-hien-dien-6.jpg",
+                    "/assets/img/thong-minh/hunonic/cam-bien-hien-dien/cam-bien-hien-dien-7.jpg",
+                    "/assets/img/thong-minh/hunonic/cam-bien-hien-dien/cam-bien-hien-dien-8.jpg",
+                    "/assets/img/thong-minh/hunonic/cam-bien-hien-dien/cam-bien-hien-dien-9.jpg",
+                    "/assets/img/thong-minh/hunonic/cam-bien-hien-dien/cam-bien-hien-dien-10.jpg"
+                ],
+                "price": "990000đ",
+                "discount": 50
+            }
+        ]
+    }
+]

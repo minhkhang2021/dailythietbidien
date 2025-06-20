@@ -1,27 +1,43 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const currentFileName = window.location.pathname
-        .split("/")
-        .pop()
-        .replace(/\.html$/, "");
-    const jsonUrl = `/assets/data/${currentFileName}.json`;
+    const pathParts = window.location.pathname.split("/").filter(Boolean);
+    const fileName = pathParts.at(-1).replace(/\.html$/, "");
+    const folderName = pathParts.at(-2);
+    const jsonUrl = `/assets/data/${folderName}/${fileName}.json`;
 
     const groupEls = document.querySelectorAll(".prod-checkbox-group");
     const imageContainer = document.querySelector(".prod-checkbox-image");
     const priceContainer = document.querySelector(".prod-checkbox-price");
     const titleContainer = document.querySelector(".prod-checkbox-title");
     const thumbnailContainer = document.querySelector(".prod-checkbox-thumbnails");
+    const zoomToggle = document.getElementById("zoomToggle");
+    const zoomLens = document.getElementById("zoomLens");
     const mode = parseInt(groupEls[0]?.dataset.mode || "1");
 
     const leftArrow = document.querySelector(".thumbnail-arrow.left");
     const rightArrow = document.querySelector(".thumbnail-arrow.right");
 
+    let isZoomEnabled = false;
+
+    if (zoomToggle) {
+        zoomToggle.addEventListener("change", (e) => {
+            isZoomEnabled = e.target.checked;
+            if (!isZoomEnabled && zoomLens) zoomLens.style.display = "none";
+        });
+    }
+
     fetch(jsonUrl)
-        .then((res) => res.json())
+        .then((res) => {
+            if (!res.ok) throw new Error(`❌ JSON load failed: ${res.status}`);
+            return res.json();
+        })
         .then((data) => {
             if (mode === 1) renderGlobalThumbnails(data);
             groupEls.forEach((groupEl) => renderLevel(data, 0, groupEl, true));
         })
-        .catch((err) => console.error("Lỗi khi load JSON:", err));
+        .catch((err) => {
+            console.error("⚠️ Không load được JSON:", jsonUrl);
+            console.error(err);
+        });
 
     function renderLevel(data, level, parentEl, autoSelect) {
         parentEl.querySelectorAll(`.attribute-level[data-level="${level}"]`).forEach((el) => el.remove());
@@ -56,7 +72,7 @@ document.addEventListener("DOMContentLoaded", () => {
             wrapper.appendChild(option);
 
             if (autoSelect && index === 0) {
-                setTimeout(() => option.click(), 0);
+                requestAnimationFrame(() => option.click());
             }
         });
 
@@ -80,10 +96,11 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         if (imageContainer) {
-            imageContainer.style.display = "block";
             imageContainer.innerHTML = `
-                <img src="${product.image}" alt="${product.name}" class="prod-checkbox-image__img" />
+                <img src="${product.image}" alt="${product.name}" id="mainProductImage" class="prod-checkbox-image__img" />
             `;
+            const imgEl = document.getElementById("mainProductImage");
+            applyZoomEffect(imgEl);
         }
 
         if (priceContainer) {
@@ -100,6 +117,35 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         }
 
+        // ⭐ THUMBNAILS CHO MODE 2 ⭐
+        if (mode === 2 && thumbnailContainer) {
+            thumbnailContainer.innerHTML = "";
+            if (Array.isArray(product.thumbnails)) {
+                product.thumbnails.forEach((thumbUrl, index) => {
+                    const thumb = document.createElement("img");
+                    thumb.src = thumbUrl;
+                    thumb.alt = product.name;
+                    thumb.className = "prod-checkbox-thumbnail";
+                    if (index === 0) thumb.classList.add("active");
+
+                    thumb.addEventListener("click", () => {
+                        const mainImage = document.getElementById("mainProductImage");
+                        if (mainImage) mainImage.src = thumbUrl;
+                        if (zoomLens && isZoomEnabled) {
+                            zoomLens.style.backgroundImage = `url(${thumbUrl})`;
+                        }
+                        thumbnailContainer
+                            .querySelectorAll(".prod-checkbox-thumbnail")
+                            .forEach((t) => t.classList.remove("active"));
+                        thumb.classList.add("active");
+                    });
+
+                    thumbnailContainer.appendChild(thumb);
+                });
+            }
+        }
+
+        // ⭐ MODE 1: Đánh dấu active thumbnail (từ global)
         if (mode === 1 && thumbnailContainer) {
             const allThumbs = thumbnailContainer.querySelectorAll(".prod-checkbox-thumbnail");
             allThumbs.forEach((t) => t.classList.remove("active"));
@@ -113,30 +159,36 @@ document.addEventListener("DOMContentLoaded", () => {
                 thumbnailContainer.scrollTo({ left: scrollLeft, behavior: "smooth" });
             }
         }
+    }
 
-        if (mode === 2 && thumbnailContainer && Array.isArray(product.thumbnails)) {
-            thumbnailContainer.innerHTML = "";
+    function applyZoomEffect(imgEl) {
+        const lens = zoomLens;
+        const lensSize = 150;
 
-            product.thumbnails.forEach((url, index) => {
-                const thumb = document.createElement("img");
-                thumb.src = url;
-                thumb.alt = product.name;
-                thumb.className = "prod-checkbox-thumbnail";
-                if (index === 0) thumb.classList.add("active");
+        imgEl.addEventListener("mousemove", (e) => {
+            if (!isZoomEnabled || !lens) {
+                lens.style.display = "none";
+                return;
+            }
 
-                thumb.addEventListener("click", () => {
-                    imageContainer.innerHTML = `
-                        <img src="${url}" alt="${product.name}" class="prod-checkbox-image__img" />
-                    `;
-                    thumbnailContainer
-                        .querySelectorAll(".prod-checkbox-thumbnail")
-                        .forEach((t) => t.classList.remove("active"));
-                    thumb.classList.add("active");
-                });
+            const rect = imgEl.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
 
-                thumbnailContainer.appendChild(thumb);
-            });
-        }
+            lens.style.display = "block";
+            lens.style.left = `${x - lensSize / 2}px`;
+            lens.style.top = `${y - lensSize / 2}px`;
+            lens.style.width = `${lensSize}px`;
+            lens.style.height = `${lensSize}px`;
+            lens.style.backgroundImage = `url(${imgEl.src})`;
+            lens.style.backgroundRepeat = "no-repeat";
+            lens.style.backgroundSize = `${imgEl.width * 2}px ${imgEl.height * 2}px`;
+            lens.style.backgroundPosition = `-${x * 2 - lensSize / 2}px -${y * 2 - lensSize / 2}px`;
+        });
+
+        imgEl.addEventListener("mouseleave", () => {
+            if (lens) lens.style.display = "none";
+        });
     }
 
     function renderGlobalThumbnails(data) {
@@ -145,26 +197,31 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const allImages = [];
 
-        function collectImages(items) {
-            items.forEach((item) => {
-                if (item.image) allImages.push({ url: item.image, name: item.name || "Ảnh sản phẩm" });
-                if (item.children) collectImages(item.children);
+        function collectImages(items, path = []) {
+            items.forEach((item, i) => {
+                const currentPath = [...path, i];
+                if (item.image)
+                    allImages.push({ url: item.image, name: item.name || "Ảnh sản phẩm", path: currentPath });
+                if (item.children) collectImages(item.children, currentPath);
             });
         }
 
         collectImages(data);
 
-        allImages.forEach(({ url, name }) => {
+        allImages.forEach(({ url, name, path }) => {
             const thumb = document.createElement("img");
             thumb.src = url;
             thumb.alt = name;
             thumb.className = "prod-checkbox-thumbnail";
 
             thumb.addEventListener("click", () => {
-                imageContainer.style.display = "block";
-                imageContainer.innerHTML = `
-                    <img src="${url}" alt="${name}" class="prod-checkbox-image__img" />
-                `;
+                const matched = findProductByImage(data, url);
+                if (matched) {
+                    renderSelectionPath(data, matched.path, groupEls[0], () => {
+                        showProduct(matched.item);
+                    });
+                }
+
                 thumbnailContainer
                     .querySelectorAll(".prod-checkbox-thumbnail")
                     .forEach((t) => t.classList.remove("active"));
@@ -175,21 +232,59 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    // XỬ LÝ NÚT CUỘN TRÁI / PHẢI CHO THUMBNAIL
+    function findProductByImage(data, imageUrl, path = [], level = 0) {
+        for (let i = 0; i < data.length; i++) {
+            const item = data[i];
+            const newPath = [...path, i];
+            if (item.image && item.image === imageUrl) {
+                return { item, path: newPath };
+            }
+            if (item.children) {
+                const found = findProductByImage(item.children, imageUrl, newPath, level + 1);
+                if (found) return found;
+            }
+        }
+        return null;
+    }
+
+    function renderSelectionPath(data, path, parentEl = groupEls[0], onComplete = () => {}) {
+        let currentData = data;
+
+        function selectNextLevel(level) {
+            if (level >= path.length) {
+                onComplete();
+                return;
+            }
+
+            const index = path[level];
+            const wrapper = parentEl.querySelector(`.attribute-level[data-level="${level}"]`);
+            if (!wrapper) {
+                renderLevel(currentData, level, parentEl, false);
+            }
+
+            setTimeout(() => {
+                const options = parentEl.querySelectorAll(`.attribute-level[data-level="${level}"] .attribute-option`);
+                const targetOption = options[index];
+                if (targetOption) {
+                    targetOption.click();
+                    currentData = currentData[index]?.children || [];
+                    selectNextLevel(level + 1);
+                } else {
+                    onComplete();
+                }
+            }, 50);
+        }
+
+        selectNextLevel(0);
+    }
+
     const scrollAmount = 100;
     if (leftArrow && rightArrow && thumbnailContainer) {
         leftArrow.addEventListener("click", () => {
-            thumbnailContainer.scrollBy({
-                left: -scrollAmount,
-                behavior: "smooth",
-            });
+            thumbnailContainer.scrollBy({ left: -scrollAmount, behavior: "smooth" });
         });
-
         rightArrow.addEventListener("click", () => {
-            thumbnailContainer.scrollBy({
-                left: scrollAmount,
-                behavior: "smooth",
-            });
+            thumbnailContainer.scrollBy({ left: scrollAmount, behavior: "smooth" });
         });
     }
 });

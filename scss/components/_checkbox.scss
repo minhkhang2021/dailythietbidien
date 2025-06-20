@@ -115,9 +115,8 @@
 }
 
 .prod-checkbox-image {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 16px;
+    position: relative; // quan trọng để lens có tọa độ gốc
+    overflow: hidden; // ẩn phần lens vượt ra ngoài nếu cần
 }
 
 .prod-checkbox-image__img {
@@ -240,4 +239,100 @@
 
 .thumbnail-arrow.right {
     right: 30px;
+}
+.zoom-toggle-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    margin: 16px 0;
+}
+
+.zoom-label {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Nút gạt đẹp */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 28px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #4caf50;
+}
+
+input:checked + .slider:before {
+    transform: translateX(22px);
+}
+.zoom-lens {
+    position: absolute;
+    display: none;
+    pointer-events: none;
+    z-index: 1000;
+
+    // ====== ✅ Điều chỉnh vị trí hiển thị tương đối ảnh ======
+    // Nếu muốn lệch sang trái hoặc phải so với con trỏ
+    transform: translate(0, 0); // hoặc translate(-50%, -50%) nếu muốn căn giữa
+    // ========================================================
+
+    // ====== ✅ Điều chỉnh kích thước cửa sổ zoom ======
+    width: 150px;
+    height: 150px;
+    border: 2px solid #ccc;
+    border-radius: 50%; // hoặc bỏ nếu bạn muốn hình vuông
+    // ==================================================
+
+    // ====== ✅ Điều chỉnh hình nền zoom ======
+    background-repeat: no-repeat;
+    background-size: 300% 300%; // tỷ lệ zoom
+    background-position: center;
+    // =========================================
+
+    // ====== ✅ Tùy chỉnh thêm nếu muốn có bóng đổ ======
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    // ==================================================
+
+    // Hiệu ứng ánh sáng bên trong (tùy chọn)
+    &::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        border-radius: 50%;
+        box-shadow: inset 0 0 8px rgba(255, 255, 255, 0.3);
+        pointer-events: none;
+    }
 }

@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Sản phẩm:",
+        "label": "Pir Sensor",
+        "children": [
+            {
+                "title": "Kiểu dáng:",
+                "name": "Bộ cảm biến chuyển động Hunonic Pir Sensor Ốp Trần",
+                "label": "Ốp Trần",
+                "image": "/assets/img/thong-minh/hunonic/bo-cam-bien-chuyen-dong-pir-sensor/bo-cam-bien-chuyen-dong-pir-sensor-1.jpg",
+                "thumbnails": [
+                    "/assets/img/thong-minh/hunonic/bo-cam-bien-chuyen-dong-pir-sensor/bo-cam-bien-chuyen-dong-pir-sensor-1.jpg",
+                    "/assets/img/thong-minh/hunonic/bo-cam-bien-chuyen-dong-pir-sensor/bo-cam-bien-chuyen-dong-pir-sensor-2.jpg",
+                    "/assets/img/thong-minh/hunonic/bo-cam-bien-chuyen-dong-pir-sensor/bo-cam-bien-chuyen-dong-pir-sensor-3.jpg",
+                    "/assets/img/thong-minh/hunonic/bo-cam-bien-chuyen-dong-pir-sensor/bo-cam-bien-chuyen-dong-pir-sensor-4.jpg",
+                    "/assets/img/thong-minh/hunonic/bo-cam-bien-chuyen-dong-pir-sensor/bo-cam-bien-chuyen-dong-pir-sensor-5.jpg",
+                    "/assets/img/thong-minh/hunonic/bo-cam-bien-chuyen-dong-pir-sensor/bo-cam-bien-chuyen-dong-pir-sensor-6.jpg"
+                ],
+                "price": "1040000đ",
+                "discount": 50
+            },
+            {
+                "name": "Bộ cảm biến chuyển động Hunonic Pir Sensor Hình Cầu",
+                "label": "Hình cầu",
+                "image": "/assets/img/thong-minh/hunonic/bo-cam-bien-chuyen-dong-pir-sensor/bo-cam-bien-chuyen-dong-pir-sensor-7.jpg",
+                "thumbnails": [
+                    "/assets/img/thong-minh/hunonic/bo-cam-bien-chuyen-dong-pir-sensor/bo-cam-bien-chuyen-dong-pir-sensor-7.jpg",
+                    "/assets/img/thong-minh/hunonic/bo-cam-bien-chuyen-dong-pir-sensor/bo-cam-bien-chuyen-dong-pir-sensor-8.jpg",
+                    "/assets/img/thong-minh/hunonic/bo-cam-bien-chuyen-dong-pir-sensor/bo-cam-bien-chuyen-dong-pir-sensor-9.jpg",
+                    "/assets/img/thong-minh/hunonic/bo-cam-bien-chuyen-dong-pir-sensor/bo-cam-bien-chuyen-dong-pir-sensor-10.jpg",
+                    "/assets/img/thong-minh/hunonic/bo-cam-bien-chuyen-dong-pir-sensor/bo-cam-bien-chuyen-dong-pir-sensor-11.jpg"
+                ],
+                "price": "900000đ",
+                "discount": 50
+            }
+        ]
+    }
+]
