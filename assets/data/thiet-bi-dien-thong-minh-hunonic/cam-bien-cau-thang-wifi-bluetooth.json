@@ -1,0 +1,43 @@
+[
+    {
+        "title": "Sản phẩm:",
+        "label": "Cảm biến cầu thang",
+        "children": [
+            {
+                "title": "Kết nối:",
+                "name": "Cảm biến cầu thang Wifi",
+                "label": "Wifi",
+                "image": "/assets/img/thong-minh/hunonic/cam-bien-cau-thang-wifi/cam-bien-cau-thang-wifi-1.jpg",
+                "thumbnails": [
+                    "/assets/img/thong-minh/hunonic/cam-bien-cau-thang-wifi/cam-bien-cau-thang-wifi-1.jpg",
+                    "/assets/img/thong-minh/hunonic/cam-bien-cau-thang-wifi/cam-bien-cau-thang-wifi-2.jpg",
+                    "/assets/img/thong-minh/hunonic/cam-bien-cau-thang-wifi/cam-bien-cau-thang-wifi-3.jpg",
+                    "/assets/img/thong-minh/hunonic/cam-bien-cau-thang-wifi/cam-bien-cau-thang-wifi-4.jpg",
+                    "/assets/img/thong-minh/hunonic/cam-bien-cau-thang-wifi/cam-bien-cau-thang-wifi-5.jpg",
+                    "/assets/img/thong-minh/hunonic/cam-bien-cau-thang-wifi/cam-bien-cau-thang-wifi-6.jpg",
+                    "/assets/img/thong-minh/hunonic/cam-bien-cau-thang-wifi/cam-bien-cau-thang-wifi-7.jpg",
+                    "/assets/img/thong-minh/hunonic/cam-bien-cau-thang-wifi/cam-bien-cau-thang-wifi-8.jpg"
+                ],
+                "price": "396000đ",
+                "discount": 50
+            },
+            {
+                "name": "Cảm biến cầu thang Bluetooth Mesh",
+                "label": "Bluetooth",
+                "image": "/assets/img/thong-minh/hunonic/cam-bien-cau-thang-bluetooth-mesh/cam-bien-cau-thang-bluetooth-mesh-1.jpg",
+                "thumbnails": [
+                    "/assets/img/thong-minh/hunonic/cam-bien-cau-thang-bluetooth-mesh/cam-bien-cau-thang-bluetooth-mesh-1.jpg",
+                    "/assets/img/thong-minh/hunonic/cam-bien-cau-thang-bluetooth-mesh/cam-bien-cau-thang-bluetooth-mesh-2.jpg",
+                    "/assets/img/thong-minh/hunonic/cam-bien-cau-thang-bluetooth-mesh/cam-bien-cau-thang-bluetooth-mesh-3.jpg",
+                    "/assets/img/thong-minh/hunonic/cam-bien-cau-thang-bluetooth-mesh/cam-bien-cau-thang-bluetooth-mesh-4.jpg",
+                    "/assets/img/thong-minh/hunonic/cam-bien-cau-thang-bluetooth-mesh/cam-bien-cau-thang-bluetooth-mesh-5.jpg",
+                    "/assets/img/thong-minh/hunonic/cam-bien-cau-thang-bluetooth-mesh/cam-bien-cau-thang-bluetooth-mesh-6.jpg",
+                    "/assets/img/thong-minh/hunonic/cam-bien-cau-thang-bluetooth-mesh/cam-bien-cau-thang-bluetooth-mesh-7.jpg",
+                    "/assets/img/thong-minh/hunonic/cam-bien-cau-thang-bluetooth-mesh/cam-bien-cau-thang-bluetooth-mesh-8.jpg"
+                ],
+                "price": "750000đ",
+                "discount": 50
+            }
+        ]
+    }
+]

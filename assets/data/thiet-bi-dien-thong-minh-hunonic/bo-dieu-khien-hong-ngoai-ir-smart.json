@@ -1,0 +1,49 @@
+[
+    {
+        "title": "Sản phẩm:",
+        "label": "IR Smart",
+        "children": [
+            {
+                "title": "Phiên bản:",
+                "name": "Bộ điều khiển hồng ngoại wifi IR Smart",
+                "label": "Basic",
+                "image": "/assets/img/thong-minh/hunonic/bo-dieu-khien-hong-ngoai-ir-smart/bo-dieu-khien-hong-ngoai-ir-smart-1.jpg",
+                "thumbnails": [
+                    "/assets/img/thong-minh/hunonic/bo-dieu-khien-hong-ngoai-ir-smart/bo-dieu-khien-hong-ngoai-ir-smart-1.jpg",
+                    "/assets/img/thong-minh/hunonic/bo-dieu-khien-hong-ngoai-ir-smart/bo-dieu-khien-hong-ngoai-ir-smart-2.jpg",
+                    "/assets/img/thong-minh/hunonic/bo-dieu-khien-hong-ngoai-ir-smart/bo-dieu-khien-hong-ngoai-ir-smart-3.jpg",
+                    "/assets/img/thong-minh/hunonic/bo-dieu-khien-hong-ngoai-ir-smart/bo-dieu-khien-hong-ngoai-ir-smart-4.jpg",
+                    "/assets/img/thong-minh/hunonic/bo-dieu-khien-hong-ngoai-ir-smart/bo-dieu-khien-hong-ngoai-ir-smart-5.jpg",
+                    "/assets/img/thong-minh/hunonic/bo-dieu-khien-hong-ngoai-ir-smart/bo-dieu-khien-hong-ngoai-ir-smart-6.jpg",
+                    "/assets/img/thong-minh/hunonic/bo-dieu-khien-hong-ngoai-ir-smart/bo-dieu-khien-hong-ngoai-ir-smart-7.jpg",
+                    "/assets/img/thong-minh/hunonic/bo-dieu-khien-hong-ngoai-ir-smart/bo-dieu-khien-hong-ngoai-ir-smart-8.jpg",
+                    "/assets/img/thong-minh/hunonic/bo-dieu-khien-hong-ngoai-ir-smart/bo-dieu-khien-hong-ngoai-ir-smart-9.jpg",
+                    "/assets/img/thong-minh/hunonic/bo-dieu-khien-hong-ngoai-ir-smart/bo-dieu-khien-hong-ngoai-ir-smart-10.jpg",
+                    "/assets/img/thong-minh/hunonic/bo-dieu-khien-hong-ngoai-ir-smart/bo-dieu-khien-hong-ngoai-ir-smart-11.jpg"
+                ],
+                "price": "390000đ",
+                "discount": 50
+            },
+            {
+                "name": "Bộ điều khiển hồng ngoại wifi IR Smart Pro",
+                "label": "Pro",
+                "image": "/assets/img/thong-minh/hunonic/bo-dieu-khien-hong-ngoai-ir-smart/bo-dieu-khien-hong-ngoai-ir-smart-1.jpg",
+                "thumbnails": [
+                    "/assets/img/thong-minh/hunonic/bo-dieu-khien-hong-ngoai-ir-smart/bo-dieu-khien-hong-ngoai-ir-smart-1.jpg",
+                    "/assets/img/thong-minh/hunonic/bo-dieu-khien-hong-ngoai-ir-smart/bo-dieu-khien-hong-ngoai-ir-smart-2.jpg",
+                    "/assets/img/thong-minh/hunonic/bo-dieu-khien-hong-ngoai-ir-smart/bo-dieu-khien-hong-ngoai-ir-smart-3.jpg",
+                    "/assets/img/thong-minh/hunonic/bo-dieu-khien-hong-ngoai-ir-smart/bo-dieu-khien-hong-ngoai-ir-smart-4.jpg",
+                    "/assets/img/thong-minh/hunonic/bo-dieu-khien-hong-ngoai-ir-smart/bo-dieu-khien-hong-ngoai-ir-smart-5.jpg",
+                    "/assets/img/thong-minh/hunonic/bo-dieu-khien-hong-ngoai-ir-smart/bo-dieu-khien-hong-ngoai-ir-smart-6.jpg",
+                    "/assets/img/thong-minh/hunonic/bo-dieu-khien-hong-ngoai-ir-smart/bo-dieu-khien-hong-ngoai-ir-smart-7.jpg",
+                    "/assets/img/thong-minh/hunonic/bo-dieu-khien-hong-ngoai-ir-smart/bo-dieu-khien-hong-ngoai-ir-smart-8.jpg",
+                    "/assets/img/thong-minh/hunonic/bo-dieu-khien-hong-ngoai-ir-smart/bo-dieu-khien-hong-ngoai-ir-smart-9.jpg",
+                    "/assets/img/thong-minh/hunonic/bo-dieu-khien-hong-ngoai-ir-smart/bo-dieu-khien-hong-ngoai-ir-smart-10.jpg",
+                    "/assets/img/thong-minh/hunonic/bo-dieu-khien-hong-ngoai-ir-smart/bo-dieu-khien-hong-ngoai-ir-smart-11.jpg"
+                ],
+                "price": "680000đ",
+                "discount": 50
+            }
+        ]
+    }
+]
