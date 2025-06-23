@@ -1,0 +1,54 @@
+[
+    {
+        "title": "Sản phẩm:",
+        "label": "Lahu",
+        "children": [
+            {
+                "title": "Số kênh kết nối:",
+                "name": "Công tắc thông minh Hunonic Lahu 1 kênh công suất lớn",
+                "label": "1 kênh",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-dieu-khien-tu-xa-hunonic-lahu/cong-tac-thong-minh-dieu-khien-tu-xa-hunonic-lahu-1-kenh-1.jpg",
+                "thumbnails": [
+                    "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-dieu-khien-tu-xa-hunonic-lahu/cong-tac-thong-minh-dieu-khien-tu-xa-hunonic-lahu-1-kenh-1.jpg",
+                    "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-dieu-khien-tu-xa-hunonic-lahu/cong-tac-thong-minh-dieu-khien-tu-xa-hunonic-lahu-1-kenh-2.jpg",
+                    "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-dieu-khien-tu-xa-hunonic-lahu/cong-tac-thong-minh-dieu-khien-tu-xa-hunonic-lahu-1-kenh-3.jpg",
+                    "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-dieu-khien-tu-xa-hunonic-lahu/cong-tac-thong-minh-dieu-khien-tu-xa-hunonic-lahu-1-kenh-4.jpg",
+                    "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-dieu-khien-tu-xa-hunonic-lahu/cong-tac-thong-minh-dieu-khien-tu-xa-hunonic-lahu-1-kenh-5.jpg",
+                    "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-dieu-khien-tu-xa-hunonic-lahu/cong-tac-thong-minh-dieu-khien-tu-xa-hunonic-lahu-1-kenh-6.jpg",
+                    "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-dieu-khien-tu-xa-hunonic-lahu/cong-tac-thong-minh-dieu-khien-tu-xa-hunonic-lahu-1-kenh-7.jpg"
+                ],
+                "price": "730000đ",
+                "discount": 50
+            },
+            {
+                "name": "Công tắc thông minh Hunonic Lahu 2 kênh",
+                "label": "2 kênh",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-dieu-khien-tu-xa-hunonic-lahu/cong-tac-thong-minh-dieu-khien-tu-xa-hunonic-lahu-2-kenh-1.jpg",
+                "thumbnails": [
+                    "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-dieu-khien-tu-xa-hunonic-lahu/cong-tac-thong-minh-dieu-khien-tu-xa-hunonic-lahu-2-kenh-1.jpg",
+                    "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-dieu-khien-tu-xa-hunonic-lahu/cong-tac-thong-minh-dieu-khien-tu-xa-hunonic-lahu-2-kenh-2.jpg",
+                    "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-dieu-khien-tu-xa-hunonic-lahu/cong-tac-thong-minh-dieu-khien-tu-xa-hunonic-lahu-2-kenh-3.jpg",
+                    "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-dieu-khien-tu-xa-hunonic-lahu/cong-tac-thong-minh-dieu-khien-tu-xa-hunonic-lahu-2-kenh-4.jpg",
+                    "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-dieu-khien-tu-xa-hunonic-lahu/cong-tac-thong-minh-dieu-khien-tu-xa-hunonic-lahu-2-kenh-5.jpg"
+                ],
+                "price": "596000đ",
+                "discount": 50
+            },
+            {
+                "name": "Công tắc thông minh Hunonic Lahu 4 kênh",
+                "label": "4 kênh",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-dieu-khien-tu-xa-hunonic-lahu/cong-tac-thong-minh-dieu-khien-tu-xa-hunonic-lahu-4-kenh-1.jpg",
+                "thumbnails": [
+                    "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-dieu-khien-tu-xa-hunonic-lahu/cong-tac-thong-minh-dieu-khien-tu-xa-hunonic-lahu-4-kenh-1.jpg",
+                    "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-dieu-khien-tu-xa-hunonic-lahu/cong-tac-thong-minh-dieu-khien-tu-xa-hunonic-lahu-4-kenh-2.jpg",
+                    "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-dieu-khien-tu-xa-hunonic-lahu/cong-tac-thong-minh-dieu-khien-tu-xa-hunonic-lahu-4-kenh-3.jpg",
+                    "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-dieu-khien-tu-xa-hunonic-lahu/cong-tac-thong-minh-dieu-khien-tu-xa-hunonic-lahu-4-kenh-4.jpg",
+                    "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-dieu-khien-tu-xa-hunonic-lahu/cong-tac-thong-minh-dieu-khien-tu-xa-hunonic-lahu-4-kenh-5.jpg",
+                    "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-dieu-khien-tu-xa-hunonic-lahu/cong-tac-thong-minh-dieu-khien-tu-xa-hunonic-lahu-4-kenh-6.jpg"
+                ],
+                "price": "796000đ",
+                "discount": 50
+            }
+        ]
+    }
+]

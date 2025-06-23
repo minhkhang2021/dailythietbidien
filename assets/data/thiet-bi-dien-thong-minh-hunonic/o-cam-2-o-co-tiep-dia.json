@@ -1,0 +1,61 @@
+[
+    {
+        "title": "Chọn mầu sắc:",
+        "label": "trắng",
+        "children": [
+            {
+                "title": "Kiểu dáng:",
+                "name": "Ổ cắm 2 ổ có tiếp địa Datic màu trắng",
+                "label": "Datic",
+                "image": "/assets/img/thong-minh/hunonic/o-cam-2-o-co-tiep-dia/O-CAM-DATIC-TRANG.jpg",
+                "thumbnails": [],
+                "price": "406000đ",
+                "discount": 50
+            },
+            {
+                "name": "Ổ cắm 2 ổ có tiếp địa Luxury màu trắng",
+                "label": "Luxury",
+                "image": "/assets/img/thong-minh/hunonic/o-cam-2-o-co-tiep-dia/o-cam-vien-vang-2-o-3-chau-luxury-hunonic-4.jpg",
+                "thumbnails": [],
+                "price": "650000đ",
+                "discount": 50
+            },
+            {
+                "name": "Ổ cắm 2 ổ có tiếp địa hình vuông màu trắng",
+                "label": "hình vuông",
+                "image": "/assets/img/thong-minh/hunonic/o-cam-2-o-co-tiep-dia/o-cam-hunonic-vuong-trang2.jpg",
+                "price": "650000đ",
+                "discount": 50
+            }
+        ]
+    },
+    {
+        "label": "đen",
+        "children": [
+            {
+                "title": "Kiểu dáng:",
+                "name": "Ổ cắm 2 ổ có tiếp địa Datic màu trắng",
+                "label": "Datic",
+                "image": "/assets/img/thong-minh/hunonic/o-cam-2-o-co-tiep-dia/O-CAM-DATIC-DEN.jpg",
+                "thumbnails": [],
+                "price": "406000đ",
+                "discount": 50
+            },
+            {
+                "name": "Ổ cắm 2 ổ có tiếp địa Luxury màu trắng",
+                "label": "Luxury",
+                "image": "/assets/img/thong-minh/hunonic/o-cam-2-o-co-tiep-dia/o-cam-vien-vang-2-o-3-chau-luxury-hunonic-3.jpg",
+                "thumbnails": [],
+                "price": "650000đ",
+                "discount": 50
+            },
+            {
+                "name": "Ổ cắm 2 ổ có tiếp địa hình vuông màu trắng",
+                "label": "hình vuông",
+                "image": "/assets/img/thong-minh/hunonic/o-cam-2-o-co-tiep-dia/o-cam-hunonic-vuong-den2.jpg",
+                "price": "650000đ",
+                "discount": 50
+            }
+        ]
+    }
+]

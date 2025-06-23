@@ -115,6 +115,8 @@
 }
 
 .prod-checkbox-image {
+    display: flex;
+    justify-content: center;
     position: relative; // quan trọng để lens có tọa độ gốc
     overflow: hidden; // ẩn phần lens vượt ra ngoài nếu cần
 }

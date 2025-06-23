@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Sản phẩm:",
+        "name": "Ổ cắm quạt thông minh",
+        "label": "SK18",
+        "image": "/assets/img/thong-minh/hunonic/o-cam-quat-thong-minh-sk18/o-cam-quat-thong-minh-sk18-1.jpg",
+        "thumbnails": [
+            "/assets/img/thong-minh/hunonic/o-cam-quat-thong-minh-sk18/o-cam-quat-thong-minh-sk18-1.jpg",
+            "/assets/img/thong-minh/hunonic/o-cam-quat-thong-minh-sk18/o-cam-quat-thong-minh-sk18-2.jpg",
+            "/assets/img/thong-minh/hunonic/o-cam-quat-thong-minh-sk18/o-cam-quat-thong-minh-sk18-3.jpg",
+            "/assets/img/thong-minh/hunonic/o-cam-quat-thong-minh-sk18/o-cam-quat-thong-minh-sk18-4.jpg",
+            "/assets/img/thong-minh/hunonic/o-cam-quat-thong-minh-sk18/o-cam-quat-thong-minh-sk18-5.jpg"
+        ],
+        "price": "590000đ",
+        "discount": 50
+    }
+]
