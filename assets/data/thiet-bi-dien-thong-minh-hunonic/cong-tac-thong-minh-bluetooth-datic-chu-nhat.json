@@ -1,0 +1,118 @@
+[
+    {
+        "title": "Chọn mầu sắc:",
+        "label": "Trắng",
+        "children": [
+            {
+                "title": "Chọn nút chức năng:",
+                "name": "Công tắc Bluetooth Mesh thông minh Datic 1 nút ấn",
+                "label": "1 nút",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-bluetooth-datic-chu-nhat/cong-tac-thong-minh-bluetooth-datic-chu-nhat-1-nut-trang.jpg",
+                "thumbnails": [],
+                "price": "960000đ",
+                "discount": 50
+            },
+            {
+                "name": "Công tắc Bluetooth Mesh thông minh Datic 2 nút ấn",
+                "label": "2 nút",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-bluetooth-datic-chu-nhat/cong-tac-thong-minh-bluetooth-datic-chu-nhat-2-nut-trang.jpg",
+                "thumbnails": [],
+                "price": "996000đ",
+                "discount": 50
+            },
+            {
+                "name": "Công tắc Bluetooth Mesh thông minh Datic 3 nút ấn",
+                "label": "3 nút",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-bluetooth-datic-chu-nhat/cong-tac-thong-minh-bluetooth-datic-chu-nhat-3-nut-trang.jpg",
+                "price": "1090000đ",
+                "discount": 50
+            },
+            {
+                "name": "Công tắc Bluetooth Mesh thông minh Datic 4 nút ấn",
+                "label": "4 nút",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-bluetooth-datic-chu-nhat/cong-tac-thong-minh-bluetooth-datic-chu-nhat-4-nut-trang.jpg",
+                "price": "1150000đ",
+                "discount": 50
+            },
+            {
+                "name": "Công tắc Bluetooth Mesh thông minh Datic 2 Nút + 1 ổ cắm",
+                "label": "2 Nút + 1 ổ cắm",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-bluetooth-datic-chu-nhat/cong-tac-thong-minh-bluetooth-datic-chu-nhat-2-nut-1-o-cam-trang.jpg",
+                "price": "1190000đ",
+                "discount": 50
+            },
+            {
+                "name": "Công tắc Bluetooth Mesh thông minh Datic Công suất lớn",
+                "label": "Công suất lớn nhà tắm",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-bluetooth-datic-chu-nhat/cong-tac-thong-minh-bluetooth-datic-chu-nhat-cong-suat-lon-trang.jpg",
+                "price": "1190000đ",
+                "discount": 50
+            },
+            {
+                "name": "Công tắc Bluetooth Mesh thông minh Datic Chống giật",
+                "label": "Chống giật",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-bluetooth-datic-chu-nhat/cong-tac-thong-minh-bluetooth-datic-chu-nhat-chong-giat-trang.jpg",
+                "price": "1190000đ",
+                "discount": 50
+            }
+        ]
+    },
+    {
+        "title": "Chọn mầu sắc:",
+        "label": "Đen",
+        "children": [
+            {
+                "title": "Chọn nút chức năng:",
+                "name": "Công tắc Bluetooth Mesh thông minh Datic 1 nút ấn",
+                "label": "1 nút",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-bluetooth-datic-chu-nhat/cong-tac-thong-minh-bluetooth-datic-chu-nhat-1-nut-den.jpg",
+                "thumbnails": [],
+                "price": "960000đ",
+                "discount": 50
+            },
+            {
+                "name": "Công tắc Bluetooth Mesh thông minh Datic 2 nút ấn",
+                "label": "2 nút",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-bluetooth-datic-chu-nhat/cong-tac-thong-minh-bluetooth-datic-chu-nhat-2-nut-den.jpg",
+                "thumbnails": [],
+                "price": "996000đ",
+                "discount": 50
+            },
+            {
+                "name": "Công tắc Bluetooth Mesh thông minh Datic 3 nút ấn",
+                "label": "3 nút",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-bluetooth-datic-chu-nhat/cong-tac-thong-minh-bluetooth-datic-chu-nhat-3-nut-den.jpg",
+                "price": "1090000đ",
+                "discount": 50
+            },
+            {
+                "name": "Công tắc Bluetooth Mesh thông minh Datic 4 nút ấn",
+                "label": "4 nút",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-bluetooth-datic-chu-nhat/cong-tac-thong-minh-bluetooth-datic-chu-nhat-4-nut-den.jpg",
+                "price": "1150000đ",
+                "discount": 50
+            },
+            {
+                "name": "Công tắc Bluetooth Mesh thông minh Datic 2 Nút + 1 ổ cắm",
+                "label": "2 Nút + 1 ổ cắm",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-bluetooth-datic-chu-nhat/cong-tac-thong-minh-bluetooth-datic-chu-nhat-2-nut-1-o-cam-den.jpg",
+                "price": "1190000đ",
+                "discount": 50
+            },
+            {
+                "name": "Công tắc Bluetooth Mesh thông minh Datic Công suất lớn",
+                "label": "Công suất lớn nhà tắm",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-bluetooth-datic-chu-nhat/cong-tac-thong-minh-bluetooth-datic-chu-nhat-cong-suat-lon-den.jpg",
+                "price": "1190000đ",
+                "discount": 50
+            },
+            {
+                "name": "Công tắc Bluetooth Mesh thông minh Datic Chống giật",
+                "label": "Chống giật",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-bluetooth-datic-chu-nhat/cong-tac-thong-minh-bluetooth-datic-chu-nhat-chong-giat-den.jpg",
+                "price": "1190000đ",
+                "discount": 50
+            }
+        ]
+    }
+]

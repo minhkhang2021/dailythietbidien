@@ -1,0 +1,53 @@
+[
+    {
+        "label": "Công tắc Premium",
+        "title": "Sản phẩm:",
+        "children": [
+            {
+                "title": "Chọn nút chức năng:",
+                "name": "Công tắc Bluetooth Mesh thông minh Premium Vuông 1 nút ấn",
+                "label": "1 nút",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-bluetooth-premium-vuong/cong-tac-thong-minh-bluetooth-premium-vuong-1-nut.jpg",
+                "thumbnails": [],
+                "price": "2190000đ",
+                "discount": 50
+            },
+            {
+                "name": "Công tắc Bluetooth Mesh thông minh Premium Vuông 2 nút ấn",
+                "label": "2 nút",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-bluetooth-premium-vuong/cong-tac-thong-minh-bluetooth-premium-vuong-2-nut.jpg",
+                "thumbnails": [],
+                "price": "2350000đ",
+                "discount": 50
+            },
+            {
+                "name": "Công tắc Bluetooth Mesh thông minh Premium Vuông 3 nút ấn",
+                "label": "3 nút",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-bluetooth-premium-vuong/cong-tac-thong-minh-bluetooth-premium-vuong-3-nut.jpg",
+                "price": "2490000đ",
+                "discount": 50
+            },
+            {
+                "name": "Công tắc Bluetooth Mesh thông minh Premium Vuông 4 nút ấn",
+                "label": "4 nút",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-bluetooth-premium-vuong/cong-tac-thong-minh-bluetooth-premium-vuong-4-nut.jpg",
+                "price": "2590000đ",
+                "discount": 50
+            },
+            {
+                "name": "Công tắc Bluetooth Mesh thông minh Premium Vuông Công suất lớn",
+                "label": "Công suất lớn",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-bluetooth-premium-vuong/cong-tac-thong-minh-bluetooth-premium-vuong-cong-suat-lon.jpg",
+                "price": "2590000đ",
+                "discount": 50
+            },
+            {
+                "name": "Công tắc Bluetooth Mesh thông minh Premium Vuông Chống giật",
+                "label": "Chống giật",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-bluetooth-premium-vuong/cong-tac-thong-minh-bluetooth-premium-vuong-chong-giat.jpg",
+                "price": "2930000đ",
+                "discount": 50
+            }
+        ]
+    }
+]

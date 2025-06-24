@@ -1,0 +1,104 @@
+[
+    {
+        "title": "Chọn mầu sắc:",
+        "label": "Trắng",
+        "children": [
+            {
+                "title": "Chọn nút chức năng:",
+                "name": "Công tắc Bluetooth Mesh thông minh Luxury 1 nút ấn",
+                "label": "1 nút",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-bluetooth-luxury-chu-nhat/cong-tac-thong-minh-bluetooth-luxury-chu-nhat-1-nut-trang.jpg",
+                "thumbnails": [],
+                "price": "1700000đ",
+                "discount": 50
+            },
+            {
+                "name": "Công tắc Bluetooth Mesh thông minh Luxury 2 nút ấn",
+                "label": "2 nút",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-bluetooth-luxury-chu-nhat/cong-tac-thong-minh-bluetooth-luxury-chu-nhat-2-nut-trang.jpg",
+                "thumbnails": [],
+                "price": "1780000đ",
+                "discount": 50
+            },
+            {
+                "name": "Công tắc Bluetooth Mesh thông minh Luxury 3 nút ấn",
+                "label": "3 nút",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-bluetooth-luxury-chu-nhat/cong-tac-thong-minh-bluetooth-luxury-chu-nhat-3-nut-trang.jpg",
+                "price": "1850000đ",
+                "discount": 50
+            },
+            {
+                "name": "Công tắc Bluetooth Mesh thông minh Luxury 4 nút ấn",
+                "label": "4 nút",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-bluetooth-luxury-chu-nhat/cong-tac-thong-minh-bluetooth-luxury-chu-nhat-4-nut-trang.jpg",
+                "price": "1920000đ",
+                "discount": 50
+            },
+            {
+                "name": "Công tắc Bluetooth Mesh thông minh Luxury Công suất lớn",
+                "label": "Công suất lớn",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-bluetooth-luxury-chu-nhat/cong-tac-thong-minh-bluetooth-luxury-chu-nhat-cong-suat-lon-trang.jpg",
+                "price": "2090000đ",
+                "discount": 50
+            },
+            {
+                "name": "Công tắc Bluetooth Mesh thông minh Luxury Chống giật",
+                "label": "Chống giật",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-bluetooth-luxury-chu-nhat/cong-tac-thong-minh-bluetooth-luxury-chu-nhat-chong-giat-trang.jpg",
+                "price": "2090000đ",
+                "discount": 50
+            }
+        ]
+    },
+    {
+        "title": "Chọn mầu sắc:",
+        "label": "Đen",
+        "children": [
+            {
+                "title": "Chọn nút chức năng:",
+                "name": "Công tắc Bluetooth Mesh thông minh Luxury 1 nút ấn",
+                "label": "1 nút",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-bluetooth-luxury-chu-nhat/cong-tac-thong-minh-bluetooth-luxury-chu-nhat-1-nut-den.jpg",
+                "thumbnails": [],
+                "price": "1700000đ",
+                "discount": 50
+            },
+            {
+                "name": "Công tắc Bluetooth Mesh thông minh Luxury 2 nút ấn",
+                "label": "2 nút",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-bluetooth-luxury-chu-nhat/cong-tac-thong-minh-bluetooth-luxury-chu-nhat-2-nut-den.jpg",
+                "thumbnails": [],
+                "price": "1780000đ",
+                "discount": 50
+            },
+            {
+                "name": "Công tắc Bluetooth Mesh thông minh Luxury 3 nút ấn",
+                "label": "3 nút",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-bluetooth-luxury-chu-nhat/cong-tac-thong-minh-bluetooth-luxury-chu-nhat-3-nut-den.jpg",
+                "price": "1850000đ",
+                "discount": 50
+            },
+            {
+                "name": "Công tắc Bluetooth Mesh thông minh Luxury 4 nút ấn",
+                "label": "4 nút",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-bluetooth-luxury-chu-nhat/cong-tac-thong-minh-bluetooth-luxury-chu-nhat-4-nut-den.jpg",
+                "price": "1920000đ",
+                "discount": 50
+            },
+            {
+                "name": "Công tắc Bluetooth Mesh thông minh Luxury Công suất lớn",
+                "label": "Công suất lớn",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-bluetooth-luxury-chu-nhat/cong-tac-thong-minh-bluetooth-luxury-chu-nhat-cong-suat-lon-den.jpg",
+                "price": "2090000đ",
+                "discount": 50
+            },
+            {
+                "name": "Công tắc Bluetooth Mesh thông minh Luxury Chống giật",
+                "label": "Chống giật",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-bluetooth-luxury-chu-nhat/cong-tac-thong-minh-bluetooth-luxury-chu-nhat-chong-giat-den.jpg",
+                "price": "2090000đ",
+                "discount": 50
+            }
+        ]
+    }
+]
