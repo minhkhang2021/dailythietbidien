@@ -1,0 +1,49 @@
+[
+    {
+        "title": "Chọn mầu sắc:",
+        "label": "trắng",
+        "children": [
+            {
+                "title": "Kiểu dáng:",
+                "name": "Công Tắc Cửa Cuốn Wifi Thông Minh HUNONIC DOOR ( màu trắng)",
+                "label": "Door",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-cua-cuon-thong-minh-hunonic-datic-door/cong-tac-cua-cuon-thong-minh-hunonic-datic-door-6.jpg",
+                "thumbnails": [],
+                "price": "1518000đ",
+                "discount": 50
+            },
+            {
+                "title": "Kiểu dáng:",
+                "name": "Công Tắc Cửa Cuốn Wifi Thông Minh HUNONIC DOOR S ( màu trắng)",
+                "label": "Door S",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-cua-cuon-thong-minh-hunonic-datic-door/cong-tac-cua-cuon-thong-minh-hunonic-datic-door-7.jpg",
+                "thumbnails": [],
+                "price": "2780000đ",
+                "discount": 50
+            }
+        ]
+    },
+    {
+        "label": "đen",
+        "children": [
+            {
+                "title": "Kiểu dáng:",
+                "name": "Công Tắc Cửa Cuốn Wifi Thông Minh HUNONIC DOOR ( màu đen)",
+                "label": "Door",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-cua-cuon-thong-minh-hunonic-datic-door/cong-tac-cua-cuon-thong-minh-hunonic-datic-door-5.jpg",
+                "thumbnails": [],
+                "price": "1518000đ",
+                "discount": 50
+            },
+            {
+                "title": "Kiểu dáng:",
+                "name": "Công Tắc Cửa Cuốn Wifi Thông Minh HUNONIC DOOR S ( màu đen)",
+                "label": "Door S",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-cua-cuon-thong-minh-hunonic-datic-door/cong-tac-cua-cuon-thong-minh-hunonic-datic-door-7.jpg",
+                "thumbnails": [],
+                "price": "2780000đ",
+                "discount": 50
+            }
+        ]
+    }
+]

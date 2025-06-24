@@ -69,37 +69,52 @@
         <script>
             load("#header", "/template/header.html");
         </script>
-        <div class="container">
-            <section class="map-path">
-                <div class="map-path__path">
-                    <a href="" class="map-path__link">Sản phẩm</a><span>/</span>
-                    <a href="" class="map-path__link">Thiết bị điện thông minh HUNONIC</a>
+        <main class="product-page">
+            <div class="container">
+                <!-- Product breadcrumbs -->
+                <div class="product-container">
+                    <ul class="breadcrumbs">
+                        <li class="breadcrumbs__item">
+                            <a href="/sanpham.html" class="breadcrumbs__link">
+                                Sản phẩm
+                                <img
+                                    src="/assets/icon/angle-small-right.svg"
+                                    alt="angle-small-right"
+                                    class="breadcrumbs__icon icon"
+                                />
+                            </a>
+                        </li>
+                        <li class="breadcrumbs__item">
+                            <a href="" class="breadcrumbs__link">Thiết bị điện thông minh HUNONIC </a>
+                        </li>
+                    </ul>
                 </div>
-            </section>
-
-            <main class="article">
-                <div class="article-content">
-                    <h1>Tổng hợp các sản phẩm Thiết bị điện Thông minh Hunonic</h1>
-                    <!-- Sản phẩm liên quan -->
-                    <section id="related-main" class="related-main"></section>
-                    <script>
-                        load("#related-main", "/template/thong-minh/hunonic/related-main.html");
-                    </script>
-                </div>
-            </main>
-            <!-- all-product -->
-            <section id="all-product" class="all-product"></section>
+                <main class="article">
+                    <div class="article-content">
+                        <h1>Tổng hợp các sản phẩm Thiết bị điện Thông minh Hunonic</h1>
+                        <!-- Sản phẩm liên quan -->
+                        <section id="related-main" class="related-main"></section>
+                        <script>
+                            load("#related-main", "/template/thong-minh/hunonic/related-main.html");
+                        </script>
+                    </div>
+                </main>
+                <!-- all-product -->
+                <section id="all-product" class="all-product"></section>
+                <script>
+                    load("#all-product", "/template/thong-minh/hunonic/all-product.html");
+                </script>
+            </div>
+            <footer id="footer" class="footer"></footer>
             <script>
-                load("#all-product", "/template/thong-minh/hunonic/all-product.html");
+                load("#footer", "/template/footer.html");
             </script>
-        </div>
-        <footer id="footer" class="footer"></footer>
-        <script>
-            load("#footer", "/template/footer.html");
-        </script>
+        </main>
 
         <!-- Cố định head -->
         <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
         <script src="/assets/js/co-dinh-head.js"></script>
+        <script src="/assets/js/scripts-page-detail.js"></script>
+        <script src="/assets/js/scripts-checkbox-n-anh-gia-ban.js"></script>
     </body>
 </html>
