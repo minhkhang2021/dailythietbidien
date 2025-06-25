@@ -208,7 +208,15 @@
             background: rgba(230, 56, 56, 0.04);
         }
     }
-
+    &__main {
+        max-height: 1100px;
+    }
+    &__faq {
+        border-left: 0;
+        border-right: 5px solid var(--border-color);
+        border-top: 5px solid var(--border-color);
+        border-radius: 0 20px 0 0;
+    }
     &__toggle {
         display: inline-block;
         width: 100%;

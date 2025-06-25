@@ -1560,7 +1560,6 @@ em {
 }
 .article {
   display: flex;
-  align-items: center;
   justify-content: space-between;
   gap: 20px;
 }
@@ -3376,6 +3375,15 @@ input:checked + .slider:before {
     padding: 10px;
     background: rgba(230, 56, 56, 0.04);
   }
+}
+.text-collapse__main {
+  max-height: 1100px;
+}
+.text-collapse__faq {
+  border-left: 0;
+  border-right: 5px solid var(--border-color);
+  border-top: 5px solid var(--border-color);
+  border-radius: 0 20px 0 0;
 }
 .text-collapse__toggle {
   display: inline-block;
