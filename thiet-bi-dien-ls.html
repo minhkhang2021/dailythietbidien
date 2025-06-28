@@ -282,10 +282,12 @@
                         <button class="text-collapse__toggle">Xem thêm</button>
                     </div>
 
-                    <section id="brand-directory-column" class="brand-directory-column"></section>
-                    <script>
-                        load("#brand-directory-column", "/template/TBDCN/brand-directory-column.html");
-                    </script>
+                    <div class="prod-tab__ads d-xl-none">
+                        <section id="ads-contact" class="ads-contact"></section>
+                        <script>
+                            load("#ads-contact", "/template/ads-contact.html");
+                        </script>
+                    </div>
                 </div>
                 <!-- FAQ -->
                 <section class="FAQ">
@@ -370,6 +372,10 @@
                         </div>
                     </div>
                 </section>
+                <section id="brand-directory-row" class="brand-directory-row"></section>
+                <script>
+                    load("#brand-directory-row", "/template/TBDCN/brand-directory-row.html");
+                </script>
                 <!-- all-product -->
                 <section id="all-product" class="all-product"></section>
                 <script>
