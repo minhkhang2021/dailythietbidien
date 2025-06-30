@@ -1,0 +1,156 @@
+[
+    {
+        "title": "Model:",
+        "label": "BKJ63N",
+        "children": [
+            {
+                "SKU": "BKJ1P6A",
+                "label": "6A",
+                "name": "Áp tô mát BKJ63N 1P 6A 6kA",
+                "TM": "LS",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-wifi-luxury-chu-nhat/cong-tac-thong-minh-wifi-luxury-chu-nhat-1-nut-den.jpg",
+                "thumbnails": [],
+                "price": "104000đ",
+                "discount": 45
+            },
+            {
+                "SKU": "BKJ1P10A",
+                "label": "10A",
+                "name": "Áp tô mát BKJ63N 1P 10A 6kA",
+                "TM": "LS",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-wifi-luxury-chu-nhat/cong-tac-thong-minh-wifi-luxury-chu-nhat-1-nut-den.jpg",
+                "thumbnails": [],
+                "price": "104000đ",
+                "discount": 45
+            },
+            {
+                "SKU": "BKJ1P16A",
+                "label": "16A",
+                "name": "Áp tô mát BKJ63N 1P 16A 6kA",
+                "TM": "LS",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-wifi-luxury-chu-nhat/cong-tac-thong-minh-wifi-luxury-chu-nhat-1-nut-den.jpg",
+                "thumbnails": [],
+                "price": "104000đ",
+                "discount": 45
+            },
+            {
+                "SKU": "BKJ1P20A",
+                "label": "20A",
+                "name": "Áp tô mát BKJ63N 1P 20A 6kA",
+                "TM": "LS",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-wifi-luxury-chu-nhat/cong-tac-thong-minh-wifi-luxury-chu-nhat-1-nut-den.jpg",
+                "thumbnails": [],
+                "price": "104000đ",
+                "discount": 45
+            },
+            {
+                "SKU": "BKJ1P25A",
+                "label": "25A",
+                "name": "Áp tô mát BKJ63N 1P 25A 6kA",
+                "TM": "LS",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-wifi-luxury-chu-nhat/cong-tac-thong-minh-wifi-luxury-chu-nhat-1-nut-den.jpg",
+                "thumbnails": [],
+                "price": "104000đ",
+                "discount": 45
+            },
+            {
+                "SKU": "BKJ1P32A",
+                "label": "32A",
+                "name": "Áp tô mát BKJ63N 1P 32A 6kA",
+                "TM": "LS",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-wifi-luxury-chu-nhat/cong-tac-thong-minh-wifi-luxury-chu-nhat-1-nut-den.jpg",
+                "thumbnails": [],
+                "price": "104000đ",
+                "discount": 45
+            },
+            {
+                "SKU": "BKJ1P40A",
+                "label": "40A",
+                "name": "Áp tô mát BKJ63N 1P 40A 6kA",
+                "TM": "LS",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-wifi-luxury-chu-nhat/cong-tac-thong-minh-wifi-luxury-chu-nhat-1-nut-den.jpg",
+                "thumbnails": [],
+                "price": "110000đ",
+                "discount": 45
+            },
+            {
+                "SKU": "BKJ1P50A",
+                "label": "50A",
+                "name": "Áp tô mát BKJ63N 1P 50A 6kA",
+                "TM": "LS",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-wifi-luxury-chu-nhat/cong-tac-thong-minh-wifi-luxury-chu-nhat-1-nut-den.jpg",
+                "thumbnails": [],
+                "price": "110000đ",
+                "discount": 45
+            },
+            {
+                "SKU": "BKJ1P63A",
+                "label": "63A",
+                "name": "Áp tô mát BKJ63N 1P 63A 6kA",
+                "TM": "LS",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-wifi-luxury-chu-nhat/cong-tac-thong-minh-wifi-luxury-chu-nhat-1-nut-den.jpg",
+                "thumbnails": [],
+                "price": "110000đ",
+                "discount": 45
+            }
+        ]
+    },
+    {
+        "title": "Chọn mầu sắc:",
+        "label": "Đen",
+        "children": [
+            {
+                "title": "Chọn nút chức năng:",
+                "name": "Công tắc Wifi thông minh Luxury 1 nút ấn",
+                "label": "1 nút",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-wifi-luxury-chu-nhat/cong-tac-thong-minh-wifi-luxury-chu-nhat-1-nut-den.jpg",
+                "thumbnails": [],
+                "price": "1420000đ",
+                "discount": 50
+            },
+            {
+                "name": "Công tắc Wifi thông minh Luxury 2 nút ấn",
+                "label": "2 nút",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-wifi-luxury-chu-nhat/cong-tac-thong-minh-wifi-luxury-chu-nhat-2-nut-den.jpg",
+                "thumbnails": [],
+                "price": "1450000đ",
+                "discount": 50
+            },
+            {
+                "name": "Công tắc Wifi thông minh Luxury 3 nút ấn",
+                "label": "3 nút",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-wifi-luxury-chu-nhat/cong-tac-thong-minh-wifi-luxury-chu-nhat-3-nut-den.jpg",
+                "price": "1490000đ",
+                "discount": 50
+            },
+            {
+                "name": "Công tắc Wifi thông minh Luxury 4 nút ấn",
+                "label": "4 nút",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-wifi-luxury-chu-nhat/cong-tac-thong-minh-wifi-luxury-chu-nhat-4-nut-den.jpg",
+                "price": "1530000đ",
+                "discount": 50
+            },
+            {
+                "name": "Công tắc Wifi thông minh Luxury 2 Nút + 1 ổ cắm",
+                "label": "2 Nút + 1 ổ cắm",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-wifi-luxury-chu-nhat/cong-tac-thong-minh-wifi-luxury-chu-nhat-2-nut-1-o-cam-den.jpg",
+                "price": "1530000đ",
+                "discount": 50
+            },
+            {
+                "name": "Công tắc Wifi thông minh Luxury Công suất lớn",
+                "label": "Công suất lớn nhà tắm",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-wifi-luxury-chu-nhat/cong-tac-thong-minh-wifi-luxury-chu-nhat-cong-suat-lon-den.jpg",
+                "price": "1530000đ",
+                "discount": 50
+            },
+            {
+                "name": "Công tắc Wifi thông minh Luxury Chống giật",
+                "label": "Chống giật",
+                "image": "/assets/img/thong-minh/hunonic/cong-tac-thong-minh-wifi-luxury-chu-nhat/cong-tac-thong-minh-wifi-luxury-chu-nhat-chong-giat-den.jpg",
+                "price": "1690000đ",
+                "discount": 50
+            }
+        ]
+    }
+]
