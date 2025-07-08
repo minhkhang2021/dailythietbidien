@@ -53,6 +53,45 @@
             })(window, document, "script", "dataLayer", "GTM-TD6R6B6Q");
         </script>
         <!-- End Google Tag Manager -->
+        <!-- Event snippet for hotline conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+        <script>
+            function gtag_report_conversion(url) {
+                var callback = function () {
+                    if (typeof url != "undefined") {
+                        window.location = url;
+                    }
+                };
+                gtag("event", "conversion", {
+                    send_to: "AW-11464705984/r_S1CJrf_ocZEMCP5toq",
+                    event_callback: callback,
+                });
+                return false;
+            }
+        </script>
+        <!-- Event snippet for zalo conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+        <script>
+            function gtag_report_conversion(url) {
+                var callback = function () {
+                    if (typeof url != "undefined") {
+                        window.location = url;
+                    }
+                };
+                gtag("event", "conversion", {
+                    send_to: "AW-11464705984/yuCUCJ3f_ocZEMCP5toq",
+                    event_callback: callback,
+                });
+                return false;
+            }
+        </script>
+
+        <!-- Google tag (gtag.js) event -->
+        <script>
+            gtag("event", "form_submit", {
+                // <event_parameters>
+            });
+        </script>
     </head>
     <body>
         <!-- Google Tag Manager (noscript) -->
